@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<character-class name="soldier">
+	<title value="Soldier" />
+	<health value="100" />	
+	<stamina value="70" />	
+	<move-speed value="18.0" />
+</character-class>
+<character-class name="heavy-soldier">
+	<title value="Heavy Soldier" />
+	<health value="100" />	
+	<stamina value="85" />	
+	<move-speed value="16.8" />
+</character-class>

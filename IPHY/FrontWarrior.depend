@@ -1,0 +1,833 @@
+# depslib dependency file v1.0
+1276316163 source:/home/Dev/FrontWarrior/IPHY/IPHY/IPHY.cpp
+	<irrlicht.h>
+	<Newton.h>
+	<IPhysics.h>
+	"EventReciever.h"
+
+1221940110 /home/Dev/FrontWarrior/IPHY/include/irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"coreutil.h"
+	"irrArray.h"
+	"irrMap.h"
+	"irrMath.h"
+	"irrString.h"
+	"irrTypes.h"
+	"SColor.h"
+	"SLight.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"IAttributes.h"
+	"IAttributeExchangingObject.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IQ3LevelMesh.h"
+	"IAnimatedMeshSceneNode.h"
+	"IBillboardSceneNode.h"
+	"IBoneSceneNode.h"
+	"ICameraSceneNode.h"
+	"IDummyTransformationSceneNode.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGPUProgrammingServices.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIColorSelectDialog.h"
+	"IGUIComboBox.h"
+	"IGUIContextMenu.h"
+	"IGUIEditBox.h"
+	"IGUIElement.h"
+	"IGUIElementFactory.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIFontBitmap.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUISpinBox.h"
+	"IGUISpriteBank.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUIToolbar.h"
+	"IGUIWindow.h"
+	"IImage.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMaterialRenderer.h"
+	"IMaterialRendererServices.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshCache.h"
+	"IMeshSceneNode.h"
+	"IMeshManipulator.h"
+	"IMeshWriter.h"
+	"IMetaTriangleSelector.h"
+	"IReadFile.h"
+	"IrrlichtDevice.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"ISceneUserDataSerializer.h"
+	"ITriangleSelector.h"
+	"ISceneNodeAnimator.h"
+	"ISceneCollisionManager.h"
+	"ISceneNodeFactory.h"
+	"ISceneNodeAnimatorFactory.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"IShaderConstantSetCallBack.h"
+	"IShadowVolumeSceneNode.h"
+	"IParticleSystemSceneNode.h"
+	"ISkinnedMesh.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"ITexture.h"
+	"IReferenceCounted.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"irrList.h"
+	"matrix4.h"
+	"plane3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SExposedVideoData.h"
+	"SKeyMap.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"SViewFrustum.h"
+	"SIrrCreationParameters.h"
+
+1221940136 /home/Dev/FrontWarrior/IPHY/include/IrrCompileConfig.h
+	<stdio.h>
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/irrMath.h
+	"IrrCompileConfig.h"
+	"irrTypes.h"
+	<math.h>
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/irrTypes.h
+	"IrrCompileConfig.h"
+	<wchar.h>
+	<crtdbg.h>
+	"assert.h"
+	<stdlib.h>
+	<crtdbg.h>
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/plane3d.h
+	"irrMath.h"
+	"vector3d.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/vector3d.h
+	"irrMath.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/coreutil.h
+	"irrString.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/irrString.h
+	"irrTypes.h"
+	"irrAllocator.h"
+	"irrMath.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/irrAllocator.h
+	"irrTypes.h"
+	<new>
+	<memory.h>
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/irrArray.h
+	"irrTypes.h"
+	"heapsort.h"
+	"irrAllocator.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/heapsort.h
+	"irrTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/irrMap.h
+	"irrTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/SColor.h
+	"irrTypes.h"
+	"irrMath.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SLight.h
+	"SColor.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/dimension2d.h
+	"irrTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EDriverTypes.h
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IAttributes.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"vector3d.h"
+	"vector2d.h"
+	"line2d.h"
+	"line3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"rect.h"
+	"matrix4.h"
+	"quaternion.h"
+	"plane3d.h"
+	"triangle3d.h"
+	"line2d.h"
+	"line3d.h"
+	"irrString.h"
+	"irrArray.h"
+	"IXMLReader.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IReferenceCounted.h
+	"irrTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/vector2d.h
+	"irrMath.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/position2d.h
+	"irrTypes.h"
+	"dimension2d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/matrix4.h
+	"irrTypes.h"
+	"vector3d.h"
+	"vector2d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+	"rect.h"
+	"irrString.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/quaternion.h
+	"irrTypes.h"
+	"irrMath.h"
+	"matrix4.h"
+	"vector3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IXMLReader.h
+	"IReferenceCounted.h"
+	"irrXML.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/irrXML.h
+	<stdio.h>
+	"IrrCompileConfig.h"
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IAttributeExchangingObject.h
+	"IReferenceCounted.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IAnimatedMesh.h
+	"aabbox3d.h"
+	"IMesh.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMesh.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/SMaterial.h
+	"SColor.h"
+	"matrix4.h"
+	"irrArray.h"
+	"EMaterialTypes.h"
+	"EMaterialFlags.h"
+	"SMaterialLayer.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EMaterialTypes.h
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EMaterialFlags.h
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/SMaterialLayer.h
+	"matrix4.h"
+	"irrAllocator.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IAnimatedMeshMD2.h
+	"IAnimatedMesh.h"
+
+1250304868 /home/Dev/FrontWarrior/IPHY/include/IAnimatedMeshMD3.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+	"quaternion.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IQ3Shader.h
+	"irrArray.h"
+	"fast_atof.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"coreutil.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/fast_atof.h
+	<stdlib.h>
+	"irrMath.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IFileSystem.h
+	"IReferenceCounted.h"
+	"IXMLReader.h"
+	"irrString.h"
+
+1221939216 /home/Dev/FrontWarrior/IPHY/include/IVideoDriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"irrArray.h"
+	"matrix4.h"
+	"plane3d.h"
+	"dimension2d.h"
+	"position2d.h"
+	"SMaterial.h"
+	"IMeshBuffer.h"
+	"triangle3d.h"
+	"EDriverTypes.h"
+	"EDriverFeatures.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/ITexture.h
+	"IReferenceCounted.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"irrString.h"
+	"matrix4.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IImage.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMeshBuffer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/S3DVertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/EDriverFeatures.h
+
+1250304868 /home/Dev/FrontWarrior/IPHY/include/IQ3LevelMesh.h
+	"IAnimatedMesh.h"
+	"IQ3Shader.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IAnimatedMeshSceneNode.h
+	"ISceneNode.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMD3.h"
+	"IShadowVolumeSceneNode.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/ISceneNode.h
+	"IAttributeExchangingObject.h"
+	"ESceneNodeTypes.h"
+	"ECullingTypes.h"
+	"EDebugSceneTypes.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+	"IAttributes.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/ESceneNodeTypes.h
+	"irrTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ECullingTypes.h
+	"irrTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EDebugSceneTypes.h
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/ISceneNodeAnimator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"ESceneNodeAnimatorTypes.h"
+	"IAttributeExchangingObject.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ESceneNodeAnimatorTypes.h
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/ITriangleSelector.h
+	"IReferenceCounted.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"line3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/irrList.h
+	"irrTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IBoneSceneNode.h
+	"ISceneNode.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IShadowVolumeSceneNode.h
+	"ISceneNode.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IBillboardSceneNode.h
+	"ISceneNode.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ICameraSceneNode.h
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1250369978 /home/Dev/FrontWarrior/IPHY/include/IEventReceiver.h
+	"ILogger.h"
+	"position2d.h"
+	"Keycodes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ILogger.h
+	"IReferenceCounted.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/Keycodes.h
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IDummyTransformationSceneNode.h
+	"ISceneNode.h"
+
+1212243412 /home/Dev/FrontWarrior/IPHY/include/IFileList.h
+	"IReferenceCounted.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IGPUProgrammingServices.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIButton.h
+	"IGUIElement.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IGUIElement.h
+	"IAttributeExchangingObject.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+	"IAttributes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EGUIElementTypes.h
+	"irrTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUICheckBox.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIColorSelectDialog.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIComboBox.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIContextMenu.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIEditBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIElementFactory.h
+	"IReferenceCounted.h"
+	"EGUIElementTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIEnvironment.h
+	"IReferenceCounted.h"
+	"IGUISkin.h"
+	"rect.h"
+	"EMessageBoxFlags.h"
+	"IEventReceiver.h"
+	"IXMLReader.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUISkin.h
+	"IAttributeExchangingObject.h"
+	"SColor.h"
+	"rect.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/EMessageBoxFlags.h
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIFileOpenDialog.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIFont.h
+	"IReferenceCounted.h"
+	"SColor.h"
+	"rect.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIFontBitmap.h
+	"IGUIFont.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIImage.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIInOutFader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIListBox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIMeshViewer.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIScrollBar.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUISpinBox.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUISpriteBank.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"SColor.h"
+	"rect.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIStaticText.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUITabControl.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIToolbar.h
+	"IGUIElement.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IGUIWindow.h
+	"IGUIElement.h"
+	"EMessageBoxFlags.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ILightSceneNode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IMaterialRenderer.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMaterialRendererServices.h
+	"IReferenceCounted.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMeshCache.h
+	"IReferenceCounted.h"
+	"irrString.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/IMeshSceneNode.h
+	"ISceneNode.h"
+
+1212243412 /home/Dev/FrontWarrior/IPHY/include/IMeshManipulator.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IAnimatedMesh.h"
+	"SColor.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMeshWriter.h
+	"IReferenceCounted.h"
+	"EMeshWriterEnums.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/EMeshWriterEnums.h
+	"irrTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IMetaTriangleSelector.h
+	"ITriangleSelector.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IReadFile.h
+	"IReferenceCounted.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IrrlichtDevice.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"IEventReceiver.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"IOSOperator.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ICursorControl.h
+	"IReferenceCounted.h"
+	"position2d.h"
+	"rect.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IVideoModeList.h
+	"IReferenceCounted.h"
+	"dimension2d.h"
+
+1212243410 /home/Dev/FrontWarrior/IPHY/include/ITimer.h
+	"IReferenceCounted.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IOSOperator.h
+	"IReferenceCounted.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/ISceneManager.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"ETerrainElements.h"
+	"ESceneNodeTypes.h"
+	"EMeshWriterEnums.h"
+	"SceneParameters.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ETerrainElements.h
+
+1221939216 /home/Dev/FrontWarrior/IPHY/include/SceneParameters.h
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ISceneUserDataSerializer.h
+	"IReferenceCounted.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ISceneCollisionManager.h
+	"IReferenceCounted.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ISceneNodeFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeTypes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ISceneNodeAnimatorFactory.h
+	"IReferenceCounted.h"
+	"ESceneNodeAnimatorTypes.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/ISceneNodeAnimatorCollisionResponse.h
+	"ISceneNode.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IShaderConstantSetCallBack.h
+	"IReferenceCounted.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/IParticleSystemSceneNode.h
+	"ISceneNode.h"
+	"IParticleAnimatedMeshSceneNodeEmitter.h"
+	"IParticleBoxEmitter.h"
+	"IParticleCylinderEmitter.h"
+	"IParticleMeshEmitter.h"
+	"IParticleRingEmitter.h"
+	"IParticleSphereEmitter.h"
+	"IParticleAttractionAffector.h"
+	"IParticleFadeOutAffector.h"
+	"IParticleGravityAffector.h"
+	"IParticleRotationAffector.h"
+	"dimension2d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleAnimatedMeshSceneNodeEmitter.h
+	"IParticleEmitter.h"
+	"IAnimatedMeshSceneNode.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleEmitter.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SParticle.h
+	"vector3d.h"
+	"SColor.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleBoxEmitter.h
+	"IParticleEmitter.h"
+	"aabbox3d.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleCylinderEmitter.h
+	"IParticleEmitter.h"
+
+1212243412 /home/Dev/FrontWarrior/IPHY/include/IParticleMeshEmitter.h
+	"IParticleEmitter.h"
+	"IMesh.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleRingEmitter.h
+	"IParticleEmitter.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleSphereEmitter.h
+	"IParticleEmitter.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleAttractionAffector.h
+	"IParticleAffector.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleAffector.h
+	"IAttributeExchangingObject.h"
+	"SParticle.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleFadeOutAffector.h
+	"IParticleAffector.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleGravityAffector.h
+	"IParticleAffector.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IParticleRotationAffector.h
+	"IParticleAffector.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ISkinnedMesh.h
+	"irrArray.h"
+	"IBoneSceneNode.h"
+	"IAnimatedMesh.h"
+	"SSkinMeshBuffer.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SSkinMeshBuffer.h
+	"IMeshBuffer.h"
+	"S3DVertex.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ITerrainSceneNode.h
+	"ETerrainElements.h"
+	"ISceneNode.h"
+	"SMeshBufferLightMap.h"
+	"irrArray.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SMeshBufferLightMap.h
+	"CMeshBuffer.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/CMeshBuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/ITextSceneNode.h
+	"ISceneNode.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IWriteFile.h
+	"IReferenceCounted.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/IXMLWriter.h
+	"IReferenceCounted.h"
+	"irrArray.h"
+	"irrString.h"
+
+1221607760 /home/Dev/FrontWarrior/IPHY/include/SAnimatedMesh.h
+	"IAnimatedMesh.h"
+	"IMesh.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SExposedVideoData.h
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SKeyMap.h
+	"Keycodes.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SMesh.h
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+	"irrArray.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SMeshBuffer.h
+	"CMeshBuffer.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SMeshBufferTangents.h
+	"CMeshBuffer.h"
+
+1212243412 /home/Dev/FrontWarrior/IPHY/include/SViewFrustum.h
+	"plane3d.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"IVideoDriver.h"
+
+1212243414 /home/Dev/FrontWarrior/IPHY/include/SIrrCreationParameters.h
+
+1249517710 /home/Dev/FrontWarrior/IPHY/include/Newton.h
+
+1159394960 /home/Dev/FrontWarrior/IPHY/include/IPhysics.h
+	"CPhysics.h"
+
+1159850264 /home/Dev/FrontWarrior/IPHY/include/CPhysics.h
+	"PhysicsGlobal.h"
+	"SPhysicsStructs.h"
+	"CPhysicsEntity.h"
+	"MPhysicsCallbacks.h"
+	"IPhysicsEntity.h"
+	"EPhysicsEnums.h"
+	"CPhysicsCar.h"
+
+1276316037 /home/Dev/FrontWarrior/IPHY/include/PhysicsGlobal.h
+	<stdio.h>
+	<irrlicht.h>
+	<Newton.h>
+
+1159855444 /home/Dev/FrontWarrior/IPHY/include/SPhysicsStructs.h
+	"PhysicsGlobal.h"
+	"EPhysicsEnums.h"
+
+1159854580 /home/Dev/FrontWarrior/IPHY/include/EPhysicsEnums.h
+
+1159312634 /home/Dev/FrontWarrior/IPHY/include/CPhysicsEntity.h
+	"PhysicsGlobal.h"
+	"IPhysicsEntity.h"
+
+1159849840 /home/Dev/FrontWarrior/IPHY/include/IPhysicsEntity.h
+	"PhysicsGlobal.h"
+	"IPhysicsBaseEntity.h"
+
+1159851202 /home/Dev/FrontWarrior/IPHY/include/IPhysicsBaseEntity.h
+	"PhysicsGlobal.h"
+	"EPhysicsEnums.h"
+
+1276316151 /home/Dev/FrontWarrior/IPHY/include/MPhysicsCallbacks.h
+	"PhysicsGlobal.h"
+	"CPhysicsEntity.h"
+
+1159312634 /home/Dev/FrontWarrior/IPHY/include/CPhysicsCar.h
+	"PhysicsGlobal.h"
+	"CPhysicsCarWheel.h"
+	"MPhysicsCallbacks.h"
+	"IPhysicsBaseEntity.h"
+	"SPhysicsStructs.h"
+	"IPhysicsCar.h"
+
+1276316156 /home/Dev/FrontWarrior/IPHY/include/CPhysicsCarWheel.h
+	"PhysicsGlobal.h"
+	"SPhysicsStructs.h"
+
+1159850972 /home/Dev/FrontWarrior/IPHY/include/IPhysicsCar.h
+	"PhysicsGlobal.h"
+	"IPhysicsBaseEntity.h"
+
+1254092870 /home/Dev/FrontWarrior/IPHY/IPHY/EventReciever.h
+

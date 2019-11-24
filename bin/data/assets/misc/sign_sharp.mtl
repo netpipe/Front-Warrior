@@ -1,0 +1,10 @@
+#
+# sign_sharp.mtl
+#
+
+newmtl Material01
+Ka 0.431373 0.431373 0.431373
+Kd 0.917647 0.917647 0.917647
+Ks 0.305882 0.305882 0.305882
+Ns 0.000000
+map_Kd .\sharpedges.png

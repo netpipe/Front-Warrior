@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<sky value="daycloudy.jpg" />
+<sun-intensity value="0.40" />
+<shadow-strength value="0.30" />
+<fog type="1" r="80" g="80" b="105" value="0.0021" />
+<ambient r="90" g="90" b="112" />
+<ambient-sound value="data/sounds/ambient/amb_berlin_ext.ogg" />

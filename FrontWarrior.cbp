@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Front Warrior" />
+		<Option makefile="MakefileCodeBlocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Engine/;Engine/Core/;Game/;Engine/Pathfinder/;Engine/Physics/;Game/Characters/;Engine/AI/;Engine/Character/;Engine/Level/;Game/Vehicles/;Engine/Input/;Engine/Sound/;Game/Level/;Game/Missions/;Engine/Vehicle/;Game/Weapons/;Game/GUI/;Engine/Network/;Game/Game/;Engine/Level/BatchingMesh/;Engine/Physics/Newton/;Engine/Level/Grass/;Engine/Level/Terrain/;" />
+		<Build>
+			<Target title="Win32">
+				<Option platforms="Windows;" />
+				<Option output="bin/FW" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add option="-w" />
+					<Add directory="include" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/irrKlang-1.3.0/include" />
+					<Add directory="libs/NewtonWin-2.20/sdk" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libs/irrlicht-1.7.1/lib/Win32-gcc/libIrrlicht.a" />
+					<Add library="libs/irrKlang-1.3.0/lib/Win32-gcc/libirrKlang.a" />
+					<Add library="libs/NewtonWin-2.20/sdk/x32/dll_vs7/newton.lib" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+			<Target title="Linux">
+				<Option output="bin/FrontWarrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="./obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add directory="include" />
+					<Add directory="include/newton" />
+					<Add directory="/usr/lib" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/micropather_1_2_0" />
+					<Add directory="libs/IrrNewt/include" />
+					<Add directory="libs/newtonSDK/sdk" />
+					<Add directory="libs/cAudio/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Xxf86vm" />
+					<Add library="GL" />
+					<Add library="Irrlicht" />
+					<Add library="libs/newtonSDK/sdk/libNewton.a" />
+					<Add library="pthread" />
+					<Add library="ogg" />
+					<Add library="openal" />
+					<Add library="cAudio" />
+					<Add directory="libs/cAudio/bin" />
+					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
+					<Add directory="libs/newtonSDK/sdk" />
+				</Linker>
+			</Target>
+			<Target title="Tecan">
+				<Option output="bin/FrontWarrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="./obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add option="-fpermissive" />
+					<Add directory="include" />
+					<Add directory="include/newton" />
+					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/include" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/micropather_1_2_0" />
+					<Add directory="libs/IrrNewt/include" />
+					<Add directory="libs/newtonSDK/sdk" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="cAudio" />
+					<Add library="GL" />
+					<Add library="Irrlicht" />
+					<Add library="Xxf86vm" />
+					<Add library="Newton" />
+					<Add library="pthread" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
+					<Add library="openal" />
+					<Add library="X11" />
+					<Add library="GLU" />
+					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/bin/gcc" />
+					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
+					<Add directory="libs/newtonSDK/sdk" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/Atmosphere.h">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="include/BaseBuilding.h">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="include/BaseCharacter.h">
+			<Option virtualFolder="Engine/Character/" />
+		</Unit>
+		<Unit filename="include/BaseMapObject.h">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="include/BatchingMesh.h">
+			<Option virtualFolder="Engine/Level/BatchingMesh/" />
+		</Unit>
+		<Unit filename="include/Bot.h">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="include/Camera.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/CharacterManager.h">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="include/Clock.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/CompileConfig.h">
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="include/Configuration.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/Core.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/Door.h">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="include/DynamicObject.h">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="include/Engine.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/GUI.h">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="include/Game.h">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="include/GameClasses.h">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="include/GameDefines.h">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="include/GameInput.h">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="include/GrassSceneNode.h">
+			<Option virtualFolder="Engine/Level/Grass/" />
+		</Unit>
+		<Unit filename="include/Input.h">
+			<Option virtualFolder="Engine/Input/" />
+		</Unit>
+		<Unit filename="include/Inventory.h">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="include/Maths.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/Menu.h">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="include/Micropather.h">
+			<Option virtualFolder="Engine/Pathfinder/" />
+		</Unit>
+		<Unit filename="include/ObjectManager.h">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="include/Pathfinder.h">
+			<Option virtualFolder="Engine/Pathfinder/" />
+		</Unit>
+		<Unit filename="include/Physics.h">
+			<Option virtualFolder="Engine/Physics/" />
+		</Unit>
+		<Unit filename="include/Player.h">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="include/Renderer.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/ShaderManager.h">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="include/SoundManager.h">
+			<Option virtualFolder="Engine/Sound/" />
+		</Unit>
+		<Unit filename="include/StaticObject.h">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="include/Terminal.h">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="include/TerrainNode.h">
+			<Option virtualFolder="Engine/Level/Terrain/" />
+		</Unit>
+		<Unit filename="include/TracedWeapon.h">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="include/VehicleManager.h">
+			<Option virtualFolder="Engine/Vehicle/" />
+		</Unit>
+		<Unit filename="include/Weapon.h">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="include/newton/Body.h">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Unit filename="include/newton/Collision.h">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Unit filename="include/newton/World.h">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Unit filename="res.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="source/Atmosphere.cpp">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="source/AutomaticDoor.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/BaseBuilding.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/BaseCharacter.cpp">
+			<Option virtualFolder="Engine/Character/" />
+		</Unit>
+		<Unit filename="source/BaseManager.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/BaseMapObject.cpp">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="source/BaseMission.cpp">
+			<Option virtualFolder="Game/Missions/" />
+		</Unit>
+		<Unit filename="source/BaseVehicle.cpp">
+			<Option virtualFolder="Engine/Vehicle/" />
+		</Unit>
+		<Unit filename="source/BatchingMesh.cpp">
+			<Option virtualFolder="Engine/Level/BatchingMesh/" />
+		</Unit>
+		<Unit filename="source/Bot.cpp">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="source/BotAI.cpp">
+			<Option virtualFolder="Engine/AI/" />
+		</Unit>
+		<Unit filename="source/Camera.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/CharacterManager.cpp">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="source/Clock.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/Configuration.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/Core.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/Door.cpp">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="source/DynamicObject.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/Flyable.cpp">
+			<Option virtualFolder="Game/Vehicles/" />
+		</Unit>
+		<Unit filename="source/GUI.cpp">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="source/Game.cpp">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="source/GameInput.cpp">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="source/GrassSceneNode.cpp">
+			<Option virtualFolder="Engine/Level/Grass/" />
+		</Unit>
+		<Unit filename="source/Helicopter.cpp">
+			<Option virtualFolder="Game/Vehicles/" />
+		</Unit>
+		<Unit filename="source/InteractableObject.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/Inventory.cpp">
+			<Option virtualFolder="Game/Game/" />
+		</Unit>
+		<Unit filename="source/Main.cpp">
+			<Option weight="0" />
+			<Option virtualFolder="Game/" />
+		</Unit>
+		<Unit filename="source/ManualDoor.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/Maths.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/Menu.cpp">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="source/Micropather.cpp">
+			<Option virtualFolder="Engine/Pathfinder/" />
+		</Unit>
+		<Unit filename="source/Network.cpp">
+			<Option virtualFolder="Engine/Network/" />
+		</Unit>
+		<Unit filename="source/ObjectManager.cpp">
+			<Option virtualFolder="Engine/Level/" />
+		</Unit>
+		<Unit filename="source/Pathfinder.cpp">
+			<Option virtualFolder="Engine/Pathfinder/" />
+		</Unit>
+		<Unit filename="source/Physics.cpp">
+			<Option virtualFolder="Engine/Physics/" />
+		</Unit>
+		<Unit filename="source/Plane.cpp">
+			<Option virtualFolder="Game/Vehicles/" />
+		</Unit>
+		<Unit filename="source/Player.cpp">
+			<Option virtualFolder="Game/Characters/" />
+		</Unit>
+		<Unit filename="source/Projectile.cpp">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="source/ProjectileLauncher.cpp">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="source/Renderer.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/ShaderManager.cpp">
+			<Option virtualFolder="Engine/Core/" />
+		</Unit>
+		<Unit filename="source/SoundManager.cpp">
+			<Option virtualFolder="Engine/Sound/" />
+		</Unit>
+		<Unit filename="source/StaticObject.cpp">
+			<Option virtualFolder="Game/Level/" />
+		</Unit>
+		<Unit filename="source/StaticWeapon.cpp">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="source/Tank.cpp">
+			<Option virtualFolder="Game/Vehicles/" />
+		</Unit>
+		<Unit filename="source/TeamAI.cpp">
+			<Option virtualFolder="Engine/AI/" />
+		</Unit>
+		<Unit filename="source/Terminal.cpp">
+			<Option virtualFolder="Game/GUI/" />
+		</Unit>
+		<Unit filename="source/TerrainNode.cpp">
+			<Option virtualFolder="Engine/Level/Terrain/" />
+		</Unit>
+		<Unit filename="source/TracedWeapon.cpp">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="source/Training.cpp">
+			<Option virtualFolder="Game/Missions/" />
+		</Unit>
+		<Unit filename="source/Vehicle.cpp">
+			<Option virtualFolder="Game/Vehicles/" />
+		</Unit>
+		<Unit filename="source/VehicleAI.cpp">
+			<Option virtualFolder="Engine/AI/" />
+		</Unit>
+		<Unit filename="source/VehicleManager.cpp">
+			<Option virtualFolder="Engine/Vehicle/" />
+		</Unit>
+		<Unit filename="source/Weapon.cpp">
+			<Option virtualFolder="Game/Weapons/" />
+		</Unit>
+		<Unit filename="source/newton/Body.cpp">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Unit filename="source/newton/Collision.cpp">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Unit filename="source/newton/World.cpp">
+			<Option virtualFolder="Engine/Physics/Newton/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

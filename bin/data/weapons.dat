@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<weapon class="0" >
+	<firerate value="105" />	
+	<clipsize value="30" />
+	<reloadtime value="2.6" />
+	<startclipsdefault value="3" />
+	<recoil value="1.30" />
+	<firerange value="600.0" />	
+	<mesh1 value="data/weap/player/gov_automatic.b3d" />	
+	<mesh2 value="" />
+	<muzzle value="data/weap/muzzle1.ms3d" />	
+	<positionfirst x="0.0375" y="-0.049" z="0.181" />
+	<scalefirst x="0.0014" y="0.0014" z="0.0014" />	
+	<scalethird x="0" y="0" z="0" />
+	<firesound value="data/sounds/weapon/dtm_fire2.wav" />	
+	<reloadsound value="data/sounds/weapon/thompson/thompson_reload.wav" />
+	<armsound value="data/sounds/weapon/arm1.wav" />		
+</weapon>
+<weapon class="0" >
+	<firerate value="100" />	
+	<clipsize value="30" />
+	<reloadtime value="2.4" />
+	<startclipsdefault value="3" />
+	<recoil value="1.28" />		
+	<firerange value="600.0" />	
+	<mesh1 value="data/weap/player/nova_automatic.b3d" />	
+	<mesh2 value="" />
+	<muzzle value="data/weap/muzzle1.ms3d" />		
+	<positionfirst x="0.0375" y="-0.045" z="0.265" />
+	<scalefirst x="0.0014" y="0.0014" z="0.0014" />	
+	<scalethird x="0" y="0" z="0" />
+	<firesound value="data/sounds/weapon/ThompsonFire1.wav" />
+	<reloadsound value="data/sounds/weapon/mp40/mp40_reload.wav" />
+	<armsound value="data/sounds/weapon/arm2.wav" />		
+</weapon>

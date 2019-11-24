@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveProject path="../../frontwarrior-read-only/libs/IrrNewt/IrrNewt.cbp" />
+	<PreferredTarget name="Linux-Static" />
+	<EditorTabsLayout layout="056dd3c0551df26f002cb3de00000002=0;IrrNewt:IrrNewt_src/body.cpp,1;IrrNewt:include/body.hpp,2;IrrNewt:IrrNewt_src/tree_body.cpp,3;IrrNewt:include/vehicle_car.hpp,4;IrrNewt:IrrNewt_src/collision.cpp,*5;IrrNewt:include/hidden.hpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=432;besth=730;minw=432;minh=730;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=056dd3c0551df26f002cb3de00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+</CodeBlocks_workspace_layout_file>

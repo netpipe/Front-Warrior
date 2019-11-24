@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+<graphics
+device="1"
+width="1200"
+height="750"
+depth="32"
+zdepth="24"
+fullscreen="0"
+doublebuffer="1"
+aspectw="16.0"
+aspecth="10.0"
+drawrange="1600"
+trilinear="1"
+anistropic="1"
+antialias="6"
+grassdensity="1"
+shadergrass="0"
+instancedgrass="0"
+instancedgrassdecay="70"
+anaglyph="0"
+gamma="2.f" />
+<controls
+mousesensitivity="0.45" />
+<sound
+sndDevice="2"
+masterVolume="0.0" />
+<game
+profile="player" />
+</config>

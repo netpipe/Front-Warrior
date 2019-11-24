@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Win32 - Release - fast math - dll" />
+	<File name="..\..\changes.txt" open="0" top="0" tabpos="0">
+		<Cursor position="188443" topLine="3951" />
+	</File>
+	<File name="..\..\include\ICameraSceneNode.h" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="..\..\include\IEventReceiver.h" open="0" top="0" tabpos="1">
+		<Cursor position="13005" topLine="416" />
+	</File>
+	<File name="..\..\include\IMeshSceneNode.h" open="0" top="0" tabpos="0">
+		<Cursor position="873" topLine="15" />
+	</File>
+	<File name="..\..\include\IParticleEmitter.h" open="0" top="0" tabpos="0">
+		<Cursor position="3173" topLine="75" />
+	</File>
+	<File name="..\..\include\ISceneManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="71425" topLine="1314" />
+	</File>
+	<File name="..\..\include\ISceneNode.h" open="0" top="0" tabpos="0">
+		<Cursor position="10155" topLine="325" />
+	</File>
+	<File name="..\..\include\IrrCompileConfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="4930" topLine="85" />
+	</File>
+	<File name="..\..\include\irrArray.h" open="0" top="0" tabpos="0">
+		<Cursor position="3591" topLine="120" />
+	</File>
+	<File name="..\..\include\vector3d.h" open="0" top="0" tabpos="0">
+		<Cursor position="16104" topLine="392" />
+	</File>
+	<File name="CCubeSceneNode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1499" topLine="48" />
+	</File>
+	<File name="CIrrDeviceWin32.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="11236" topLine="345" />
+	</File>
+	<File name="CMeshSceneNode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="397" topLine="0" />
+	</File>
+	<File name="CMeshSceneNode.h" open="0" top="0" tabpos="0">
+		<Cursor position="1975" topLine="39" />
+	</File>
+	<File name="CSceneManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="313" topLine="0" />
+	</File>
+	<File name="CSceneManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="9" />
+	</File>
+	<File name="CSceneNodeAnimatorDelete.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="906" topLine="15" />
+	</File>
+	<File name="jpeglib\jdmainct.c" open="0" top="0" tabpos="0">
+		<Cursor position="19632" topLine="459" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<material object="Terrain" shader="SplatShader" version="20" param1="1" param2="32" param3="32" param4="32" />

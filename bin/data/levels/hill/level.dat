@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sky r="100" g="100" b="108" />
+<sun-intensity value="0.40" />
+<shadow-strength value="0.30" />
+<fog type="1" r="100" g="100" b="108" value="0.018" />
+<ambient r="100" g="100" b="108" />
+<grass object="Terrain" source="terrain/colormap_mt.png" patchsize="36.0" />
+<ambient-sound value="data/sounds/ambient/amb_berlin_ext.ogg" />

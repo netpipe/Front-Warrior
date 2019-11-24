@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Linux irr17" />
+	<File name="include/BaseCharacter.h" open="0" top="0" tabpos="0">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="include/Camera.h" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="include/Configuration.h" open="0" top="0" tabpos="0">
+		<Cursor position="99" topLine="0" />
+	</File>
+	<File name="include/Engine.h" open="0" top="0" tabpos="0">
+		<Cursor position="101" topLine="0" />
+	</File>
+	<File name="include/GameDefines.h" open="0" top="0" tabpos="0">
+		<Cursor position="97" topLine="0" />
+	</File>
+	<File name="include/GameInput.h" open="0" top="0" tabpos="0">
+		<Cursor position="180" topLine="0" />
+	</File>
+	<File name="include/Input.h" open="0" top="0" tabpos="0">
+		<Cursor position="2541" topLine="95" />
+	</File>
+	<File name="include/Maths.h" open="0" top="0" tabpos="0">
+		<Cursor position="81" topLine="0" />
+	</File>
+	<File name="include/Physics.h" open="1" top="1" tabpos="2">
+		<Cursor position="268" topLine="0" />
+	</File>
+	<File name="include/ShaderManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="include/SoundManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="include/newton/Body.h" open="0" top="0" tabpos="0">
+		<Cursor position="81" topLine="0" />
+	</File>
+	<File name="include/newton/Collision.h" open="0" top="0" tabpos="0">
+		<Cursor position="95" topLine="0" />
+	</File>
+	<File name="source/Core.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="21" topLine="0" />
+	</File>
+	<File name="source/GameInput.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="687" topLine="87" />
+	</File>
+</CodeBlocks_layout_file>

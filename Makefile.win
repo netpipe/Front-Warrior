@@ -1,0 +1,186 @@
+# Project: Front Warrior
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = source2/obj/Front_Warrior_private.res
+OBJ  = source2/obj/AutomaticDoor.o source2/obj/BaseBuilding.o source2/obj/BaseCharacter.o source2/obj/BaseManager.o source2/obj/BaseMapObject.o source2/obj/BaseMission.o source2/obj/BaseVehicle.o source2/obj/BatchingMesh.o source2/obj/Bot.o source2/obj/BotAI.o source2/obj/Camera.o source2/obj/CharacterManager.o source2/obj/Clock.o source2/obj/Configuration.o source2/obj/Core.o source2/obj/Door.o source2/obj/DynamicObject.o source2/obj/Flyable.o source2/obj/Game.o source2/obj/GameInput.o source2/obj/GUI.o source2/obj/Helicopter.o source2/obj/Input.o source2/obj/InteractableObject.o source2/obj/Inventory.o source2/obj/Main.o source2/obj/MainMenu.o source2/obj/ManualDoor.o source2/obj/Maths.o source2/obj/Network.o source2/obj/ObjectManager.o source2/obj/Pathfinder.o source2/obj/Physics.o source2/obj/Plane.o source2/obj/Player.o source2/obj/Projectile.o source2/obj/ProjectileLauncher.o source2/obj/Renderer.o source2/obj/ShaderManager.o source2/obj/Sound.o source2/obj/StaticObject.o source2/obj/StaticWeapon.o source2/obj/Tank.o source2/obj/TeamAI.o source2/obj/Terminal.o source2/obj/TracedWeapon.o source2/obj/Training.o source2/obj/Utils.o source2/obj/Weapon.o source2/obj/Vehicle.o source2/obj/VehicleAI.o source2/obj/VehicleManager.o $(RES)
+LINKOBJ  = source2/obj/AutomaticDoor.o source2/obj/BaseBuilding.o source2/obj/BaseCharacter.o source2/obj/BaseManager.o source2/obj/BaseMapObject.o source2/obj/BaseMission.o source2/obj/BaseVehicle.o source2/obj/BatchingMesh.o source2/obj/Bot.o source2/obj/BotAI.o source2/obj/Camera.o source2/obj/CharacterManager.o source2/obj/Clock.o source2/obj/Configuration.o source2/obj/Core.o source2/obj/Door.o source2/obj/DynamicObject.o source2/obj/Flyable.o source2/obj/Game.o source2/obj/GameInput.o source2/obj/GUI.o source2/obj/Helicopter.o source2/obj/Input.o source2/obj/InteractableObject.o source2/obj/Inventory.o source2/obj/Main.o source2/obj/MainMenu.o source2/obj/ManualDoor.o source2/obj/Maths.o source2/obj/Network.o source2/obj/ObjectManager.o source2/obj/Pathfinder.o source2/obj/Physics.o source2/obj/Plane.o source2/obj/Player.o source2/obj/Projectile.o source2/obj/ProjectileLauncher.o source2/obj/Renderer.o source2/obj/ShaderManager.o source2/obj/Sound.o source2/obj/StaticObject.o source2/obj/StaticWeapon.o source2/obj/Tank.o source2/obj/TeamAI.o source2/obj/Terminal.o source2/obj/TracedWeapon.o source2/obj/Training.o source2/obj/Utils.o source2/obj/Weapon.o source2/obj/Vehicle.o source2/obj/VehicleAI.o source2/obj/VehicleManager.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" "../../Gamedev/Irrlicht SVN/2776/bin/Win32-gcc/libIrrlicht.a" ../../miNav-0.1/miNav-0.1/Bin/miNav.o ../../irrlicht-1.4/IrrKlang/irrKlang-1.1.2c/irrKlang-1.1.2/lib/Win32-gcc/libirrKlang.a "../../Program Files/NewtonSDK/sdk/dll/Newton.lib" ../../Gamedev/IrrNewt/bin/win32gcc/libIrrNewt.a  
+INCS =  -I"C:/Dev-Cpp/include"  -I"include"  -I"C:/Gamedev/Irrlicht SVN/2776/include"  -I"C:/Program Files/NewtonSDK/sdk"  -I"C:/irrlicht-1.4/IrrKlang/irrKlang-1.1.2c/irrKlang-1.1.2/include"  -I"C:/Gamedev/IrrNewt/include" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"include"  -I"C:/Gamedev/Irrlicht SVN/2776/include"  -I"C:/Program Files/NewtonSDK/sdk"  -I"C:/irrlicht-1.4/IrrKlang/irrKlang-1.1.2c/irrKlang-1.1.2/include"  -I"C:/Gamedev/IrrNewt/include" 
+BIN  = "bin/Front Warrior.exe"
+CXXFLAGS = $(CXXINCS)   -fexpensive-optimizations -O3
+CFLAGS = $(INCS)   -fexpensive-optimizations -O3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "bin/Front Warrior.exe" all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "bin\Front Warrior.exe" $(LIBS)
+
+source2/obj/AutomaticDoor.o: source/AutomaticDoor.cpp
+	$(CPP) -c source/AutomaticDoor.cpp -o source2/obj/AutomaticDoor.o $(CXXFLAGS)
+
+source2/obj/BaseBuilding.o: source/BaseBuilding.cpp
+	$(CPP) -c source/BaseBuilding.cpp -o source2/obj/BaseBuilding.o $(CXXFLAGS)
+
+source2/obj/BaseCharacter.o: source/BaseCharacter.cpp
+	$(CPP) -c source/BaseCharacter.cpp -o source2/obj/BaseCharacter.o $(CXXFLAGS)
+
+source2/obj/BaseManager.o: source/BaseManager.cpp
+	$(CPP) -c source/BaseManager.cpp -o source2/obj/BaseManager.o $(CXXFLAGS)
+
+source2/obj/BaseMapObject.o: source/BaseMapObject.cpp
+	$(CPP) -c source/BaseMapObject.cpp -o source2/obj/BaseMapObject.o $(CXXFLAGS)
+
+source2/obj/BaseMission.o: source/BaseMission.cpp
+	$(CPP) -c source/BaseMission.cpp -o source2/obj/BaseMission.o $(CXXFLAGS)
+
+source2/obj/BaseVehicle.o: source/BaseVehicle.cpp
+	$(CPP) -c source/BaseVehicle.cpp -o source2/obj/BaseVehicle.o $(CXXFLAGS)
+
+source2/obj/BatchingMesh.o: source/BatchingMesh.cpp
+	$(CPP) -c source/BatchingMesh.cpp -o source2/obj/BatchingMesh.o $(CXXFLAGS)
+
+source2/obj/Bot.o: source/Bot.cpp
+	$(CPP) -c source/Bot.cpp -o source2/obj/Bot.o $(CXXFLAGS)
+
+source2/obj/BotAI.o: source/BotAI.cpp
+	$(CPP) -c source/BotAI.cpp -o source2/obj/BotAI.o $(CXXFLAGS)
+
+source2/obj/Camera.o: source/Camera.cpp
+	$(CPP) -c source/Camera.cpp -o source2/obj/Camera.o $(CXXFLAGS)
+
+source2/obj/CharacterManager.o: source/CharacterManager.cpp
+	$(CPP) -c source/CharacterManager.cpp -o source2/obj/CharacterManager.o $(CXXFLAGS)
+
+source2/obj/Clock.o: source/Clock.cpp
+	$(CPP) -c source/Clock.cpp -o source2/obj/Clock.o $(CXXFLAGS)
+
+source2/obj/Configuration.o: source/Configuration.cpp
+	$(CPP) -c source/Configuration.cpp -o source2/obj/Configuration.o $(CXXFLAGS)
+
+source2/obj/Core.o: source/Core.cpp
+	$(CPP) -c source/Core.cpp -o source2/obj/Core.o $(CXXFLAGS)
+
+source2/obj/Door.o: source/Door.cpp
+	$(CPP) -c source/Door.cpp -o source2/obj/Door.o $(CXXFLAGS)
+
+source2/obj/DynamicObject.o: source/DynamicObject.cpp
+	$(CPP) -c source/DynamicObject.cpp -o source2/obj/DynamicObject.o $(CXXFLAGS)
+
+source2/obj/Flyable.o: source/Flyable.cpp
+	$(CPP) -c source/Flyable.cpp -o source2/obj/Flyable.o $(CXXFLAGS)
+
+source2/obj/Game.o: source/Game.cpp
+	$(CPP) -c source/Game.cpp -o source2/obj/Game.o $(CXXFLAGS)
+
+source2/obj/GameInput.o: source/GameInput.cpp
+	$(CPP) -c source/GameInput.cpp -o source2/obj/GameInput.o $(CXXFLAGS)
+
+source2/obj/GUI.o: source/GUI.cpp
+	$(CPP) -c source/GUI.cpp -o source2/obj/GUI.o $(CXXFLAGS)
+
+source2/obj/Helicopter.o: source/Helicopter.cpp
+	$(CPP) -c source/Helicopter.cpp -o source2/obj/Helicopter.o $(CXXFLAGS)
+
+source2/obj/Input.o: source/Input.cpp
+	$(CPP) -c source/Input.cpp -o source2/obj/Input.o $(CXXFLAGS)
+
+source2/obj/InteractableObject.o: source/InteractableObject.cpp
+	$(CPP) -c source/InteractableObject.cpp -o source2/obj/InteractableObject.o $(CXXFLAGS)
+
+source2/obj/Inventory.o: source/Inventory.cpp
+	$(CPP) -c source/Inventory.cpp -o source2/obj/Inventory.o $(CXXFLAGS)
+
+source2/obj/Main.o: source/Main.cpp
+	$(CPP) -c source/Main.cpp -o source2/obj/Main.o $(CXXFLAGS)
+
+source2/obj/MainMenu.o: source/MainMenu.cpp
+	$(CPP) -c source/MainMenu.cpp -o source2/obj/MainMenu.o $(CXXFLAGS)
+
+source2/obj/ManualDoor.o: source/ManualDoor.cpp
+	$(CPP) -c source/ManualDoor.cpp -o source2/obj/ManualDoor.o $(CXXFLAGS)
+
+source2/obj/Maths.o: source/Maths.cpp
+	$(CPP) -c source/Maths.cpp -o source2/obj/Maths.o $(CXXFLAGS)
+
+source2/obj/Network.o: source/Network.cpp
+	$(CPP) -c source/Network.cpp -o source2/obj/Network.o $(CXXFLAGS)
+
+source2/obj/ObjectManager.o: source/ObjectManager.cpp
+	$(CPP) -c source/ObjectManager.cpp -o source2/obj/ObjectManager.o $(CXXFLAGS)
+
+source2/obj/Pathfinder.o: source/Pathfinder.cpp
+	$(CPP) -c source/Pathfinder.cpp -o source2/obj/Pathfinder.o $(CXXFLAGS)
+
+source2/obj/Physics.o: source/Physics.cpp
+	$(CPP) -c source/Physics.cpp -o source2/obj/Physics.o $(CXXFLAGS)
+
+source2/obj/Plane.o: source/Plane.cpp
+	$(CPP) -c source/Plane.cpp -o source2/obj/Plane.o $(CXXFLAGS)
+
+source2/obj/Player.o: source/Player.cpp
+	$(CPP) -c source/Player.cpp -o source2/obj/Player.o $(CXXFLAGS)
+
+source2/obj/Projectile.o: source/Projectile.cpp
+	$(CPP) -c source/Projectile.cpp -o source2/obj/Projectile.o $(CXXFLAGS)
+
+source2/obj/ProjectileLauncher.o: source/ProjectileLauncher.cpp
+	$(CPP) -c source/ProjectileLauncher.cpp -o source2/obj/ProjectileLauncher.o $(CXXFLAGS)
+
+source2/obj/Renderer.o: source/Renderer.cpp
+	$(CPP) -c source/Renderer.cpp -o source2/obj/Renderer.o $(CXXFLAGS)
+
+source2/obj/ShaderManager.o: source/ShaderManager.cpp
+	$(CPP) -c source/ShaderManager.cpp -o source2/obj/ShaderManager.o $(CXXFLAGS)
+
+source2/obj/Sound.o: source/Sound.cpp
+	$(CPP) -c source/Sound.cpp -o source2/obj/Sound.o $(CXXFLAGS)
+
+source2/obj/StaticObject.o: source/StaticObject.cpp
+	$(CPP) -c source/StaticObject.cpp -o source2/obj/StaticObject.o $(CXXFLAGS)
+
+source2/obj/StaticWeapon.o: source/StaticWeapon.cpp
+	$(CPP) -c source/StaticWeapon.cpp -o source2/obj/StaticWeapon.o $(CXXFLAGS)
+
+source2/obj/Tank.o: source/Tank.cpp
+	$(CPP) -c source/Tank.cpp -o source2/obj/Tank.o $(CXXFLAGS)
+
+source2/obj/TeamAI.o: source/TeamAI.cpp
+	$(CPP) -c source/TeamAI.cpp -o source2/obj/TeamAI.o $(CXXFLAGS)
+
+source2/obj/Terminal.o: source/Terminal.cpp
+	$(CPP) -c source/Terminal.cpp -o source2/obj/Terminal.o $(CXXFLAGS)
+
+source2/obj/TracedWeapon.o: source/TracedWeapon.cpp
+	$(CPP) -c source/TracedWeapon.cpp -o source2/obj/TracedWeapon.o $(CXXFLAGS)
+
+source2/obj/Training.o: source/Training.cpp
+	$(CPP) -c source/Training.cpp -o source2/obj/Training.o $(CXXFLAGS)
+
+source2/obj/Utils.o: source/Utils.cpp
+	$(CPP) -c source/Utils.cpp -o source2/obj/Utils.o $(CXXFLAGS)
+
+source2/obj/Weapon.o: source/Weapon.cpp
+	$(CPP) -c source/Weapon.cpp -o source2/obj/Weapon.o $(CXXFLAGS)
+
+source2/obj/Vehicle.o: source/Vehicle.cpp
+	$(CPP) -c source/Vehicle.cpp -o source2/obj/Vehicle.o $(CXXFLAGS)
+
+source2/obj/VehicleAI.o: source/VehicleAI.cpp
+	$(CPP) -c source/VehicleAI.cpp -o source2/obj/VehicleAI.o $(CXXFLAGS)
+
+source2/obj/VehicleManager.o: source/VehicleManager.cpp
+	$(CPP) -c source/VehicleManager.cpp -o source2/obj/VehicleManager.o $(CXXFLAGS)
+
+source2/obj/Front_Warrior_private.res: Front_Warrior_private.rc 
+	$(WINDRES) -i Front_Warrior_private.rc --input-format=rc -o source2/obj/Front_Warrior_private.res -O coff 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Front Warrior" />
+		<Option makefile="MakefileCodeBlocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32">
+				<Option platforms="Windows;" />
+				<Option output="bin/Front Warrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-O" />
+					<Add option="-w" />
+					<Add directory="include" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/caudio2.1.0-win32-gcc/include" />
+					<Add directory="libs/NewtonWin-2.20/sdk" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libs/irrlicht-1.7.1/lib/Win32-gcc/libIrrlicht.a" />
+					<Add library="libs/caudio2.1.0-win32-gcc/lib/win32-gcc/libcAudio.a" />
+					<Add library="libs/NewtonWin-2.20/sdk/x32/dll_vs7/newton.lib" />
+				</Linker>
+			</Target>
+			<Target title="Linux irr17">
+				<Option output="bin/FrontWarrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="./obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add directory="include" />
+					<Add directory="include/newton" />
+					<Add directory="/usr/lib" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/micropather_1_2_0" />
+					<Add directory="libs/IrrNewt/include" />
+					<Add directory="libs/newtonSDK/sdk" />
+					<Add directory="libs/cAudio/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Irrlicht" />
+					<Add library="GL" />
+					<Add library="Xxf86vm" />
+					<Add library="libs/libNewton.a" />
+					<Add library="openal" />
+					<Add library="pthread" />
+					<Add library="ogg" />
+					<Add directory="libs/cAudio/bin" />
+					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
+					<Add directory="libs/newtonSDK/sdk" />
+				</Linker>
+			</Target>
+			<Target title="Tecan">
+				<Option output="bin/FrontWarrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="./obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add directory="include" />
+					<Add directory="/home/Dev/Agnostic-SF/libs/cAudio2.1.0/include" />
+					<Add directory="../libs/irrlicht-1.7.1/include" />
+					<Add directory="libs/micropather_1_2_0" />
+					<Add directory="../libs/IrrNewt/include" />
+					<Add directory="../libs/newtonSDK/sdk" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Newton" />
+					<Add library="Xxf86vm" />
+					<Add library="Irrlicht" />
+					<Add library="GL" />
+					<Add library="pthread" />
+					<Add library="vorbisenc" />
+					<Add library="vorbisfile" />
+					<Add library="ogg" />
+					<Add library="vorbis" />
+					<Add library="openal" />
+					<Add directory="/home/Dev/Agnostic-SF/libs/cAudio2.1.0/bin/gcc" />
+					<Add directory="../libs/irrlicht-1.7.1/lib/Linux" />
+					<Add directory="../libs/newtonSDK/sdk" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="IPHY/EventReciever.h" />
+		<Unit filename="IPHY/IPHY.cpp" />
+		<Unit filename="IPHY/ReadMe.txt" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

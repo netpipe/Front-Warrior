@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<sky value="dayfair.jpg"/>
+<weather-particle value="snow" />
+<sun-intensity value="0.89" />
+<shadow-strength value="0.45" />
+<fog type="1" r="210" g="210" b="215" value="0.00086" />
+<ambient r="180" g="180" b="194" />
+<ambient-sound value="data/sounds/ambient/snowy.ogg" />

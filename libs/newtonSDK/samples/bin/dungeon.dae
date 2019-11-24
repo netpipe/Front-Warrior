@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Newton Game Dynamics 2.00 Collada Export</author>
+    </contributor>
+    <created>2010-01-04T15:56:43Z</created>
+    <modified>2010-01-04T15:56:43Z</modified>
+    <unit name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="texture_1b377d64">
+      <init_from>./wall_4.tga</init_from>
+    </image>
+    <image id="texture_cdaca23a">
+      <init_from>./floor_.tga</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="materialFx_0">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.7 0.7 0.7 1</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="materialFx_1b377d64">
+      <profile_COMMON>
+        <newparam sid="texture_1b377d64_image">
+          <surface type="2D">
+            <init_from>texture_1b377d64</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="texture_1b377d64">
+          <sampler2D>
+            <source>texture_1b377d64_image</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="texture_1b377d64" texcoord="CHANNEL1"/>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="materialFx_cdaca23a">
+      <profile_COMMON>
+        <newparam sid="texture_cdaca23a_image">
+          <surface type="2D">
+            <init_from>texture_cdaca23a</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="texture_cdaca23a">
+          <sampler2D>
+            <source>texture_cdaca23a_image</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <texture texture="texture_cdaca23a" texcoord="CHANNEL1"/>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="material_0">
+      <instance_effect url="#materialFx_0"/>
+    </material>
+    <material id="material_1b377d64">
+      <instance_effect url="#materialFx_1b377d64"/>
+    </material>
+    <material id="material_cdaca23a">
+      <instance_effect url="#materialFx_cdaca23a"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Line02">
+      <mesh>
+        <source id="Line02_position">
+          <float_array id="Line02_positionArray" count="96">-10.4265 -2.64891 15.3826 -10.4265 12.856 15.3826 -10.3123 12.8559 -11.1554 -10.3123 -2.649 -11.1553 10.8123 12.856 15.3826 10.8123 -2.64891 15.3826 10.9264 -2.64894 5.28413 10.9264 12.8559 5.28407 11.0406 12.8559 -4.53389e-005 11.0406 -2.64896 1.06681e-005 11.1548 12.8559 -11.7426 11.1548 -2.649 -11.7425 26.3944 20.0832 5.25469 26.3944 4.57831 5.25475 26.48 4.57829 -0.0293717 26.48 20.0832 -0.0294277 34.3854 4.57831 5.22539 34.3854 20.0832 5.22534 34.4425 20.0832 -0.0587842 34.4425 4.57829 -0.0587282 49.6551 30.9777 -15.3827 49.6551 15.4727 -15.3827 49.7693 15.4728 -0.11748 49.7693 15.4728 15.3826 49.7693 15.4728 5.16664 49.7693 30.9778 15.3825 49.7693 30.9778 5.16659 49.7693 30.9777 -0.117536 71.9216 30.9778 15.1477 71.9216 15.4728 15.1478 72.2641 15.4727 -15.2653 72.2641 30.9777 -15.2653</float_array>
+          <technique_common>
+            <accessor count="32" source="#Line02_positionArray" stride="3">
+              <param name="x" type="float"/>
+              <param name="y" type="float"/>
+              <param name="z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line02Normal">
+          <float_array id="Line02NormalArray" count="78">-0.999953 -3.51396e-008 -0.00972797 -0.999937 -4.07681e-008 -0.0112619 -0.579367 0.815043 -0.00627049 -0.579117 0.815228 -0.00517261 -0.578182 0.815907 -0.00109467 -0.577929 0.816087 -2.95423e-006 -0.423431 0.905886 -0.0087159 -0.423308 0.90594 -0.00914758 -0.219603 0.975582 -0.00378687 -0.214655 0.976684 -0.00348129 -0.0105981 -3.61979e-006 -0.999944 -0.00519422 3.61994e-006 0.999986 -0.00381625 -3.59271e-006 -0.999993 -0.00292914 -3.59262e-006 -0.999996 -0.00267721 -3.59265e-006 -0.999996 -0.00189782 -3.59261e-006 -0.999998 -3.97168e-008 1 -3.62815e-006 1.01506e-015 -3.61999e-006 -1 0.00190138 3.61217e-006 0.999998 0.00268491 3.61212e-006 0.999996 0.00293865 3.6122e-006 0.999996 0.00374113 3.61219e-006 0.999993 0.0273425 3.61864e-006 0.999626 0.999972 -2.70897e-008 -0.00748335 0.999991 1.55826e-008 0.0043046 1 2.80328e-021 1.01506e-015</float_array>
+          <technique_common>
+            <accessor count="26" source="#Line02NormalArray" stride="3">
+              <param name="x" type="float"/>
+              <param name="y" type="float"/>
+              <param name="z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Line02UV">
+          <float_array id="Line02UVArray" count="40">-2.85373 -1.30407 -2.84268 2.14631 -0.79896 -1.30407 -0.787913 0.008906 -0.776866 0.695929 -0.765819 2.22265 -1.8e-005 1.8e-005 1.8e-005 1.00002 0.708549 0.012723 0.716834 0.699746 0.999982 -1.8e-005 1.00002 0.999982 1.48165 0.016539 1.48717 0.703562 2.95894 2.69593 2.96998 0.711196 2.96998 0.024173 2.96998 -1.30407 5.11313 -1.27354 5.14627 2.68066</float_array>
+          <technique_common>
+            <accessor count="20" source="#Line02UVArray" stride="2">
+              <param name="s" type="float"/>
+              <param name="t" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Line02Vertices">
+          <input semantic="POSITION" source="#Line02_position"/>
+        </vertices>
+        <triangles count="32" material="material_1b377d64">
+          <input offset="0" semantic="VERTEX" source="#Line02Vertices"/>
+          <input offset="1" semantic="NORMAL" source="#Line02Normal"/>
+          <input offset="2" semantic="TEXCOORD" source="#Line02UV" set="0"/>
+          <p>1 24 7 0 24 6 2 24 11 2 24 11 0 24 6 3 24 10 5 17 6 0 17 10 1 17 11 5 17 6 1 17 11 4 17 7 2 22 7 3 22 6 10 22 11 10 22 11 3 22 6 11 22 10 6 1 6 5 1 10 7 1 7 7 1 7 5 1 10 4 1 11 13 14 6 6 15 10 12 13 7 12 13 7 6 15 10 7 15 11 9 0 10 8 0 11 10 0 7 15 20 11 8 18 7 14 19 10 14 19 10 8 18 7 9 18 6 11 0 6 9 0 10 10 0 7 17 12 7 13 14 10 12 13 11 16 12 6 13 14 10 17 12 7 18 21 11 15 20 7 19 21 10 19 21 10 15 20 7 14 19 6 16 12 10 17 12 11 26 12 7 24 12 6 16 12 10 26 12 7 27 21 11 18 21 7 22 21 10 22 21 10 18 21 7 19 21 6 20 11 7 21 11 6 31 11 11 27 23 7 21 23 10 20 23 11 22 23 6 21 23 10 27 23 7 31 11 11 21 11 6 30 11 10 25 25 7 23 25 6 24 25 10 29 10 6 23 10 10 25 10 11 25 25 7 24 25 10 26 25 11 29 10 6 25 10 11 28 10 7 30 1 6 29 1 10 28 1 11 30 1 6 28 1 11 31 1 7</p>
+        </triangles>
+        <triangles count="13" material="material_cdaca23a">
+          <input offset="0" semantic="VERTEX" source="#Line02Vertices"/>
+          <input offset="1" semantic="NORMAL" source="#Line02Normal"/>
+          <input offset="2" semantic="TEXCOORD" source="#Line02UV" set="0"/>
+          <p>3 16 1 0 16 0 11 16 5 6 16 3 0 16 0 5 16 2 11 16 5 0 16 0 6 16 3 9 6 4 6 7 3 13 8 8 14 9 9 9 6 4 13 8 8 14 9 9 13 8 8 16 16 12 19 16 13 14 9 9 16 16 12 19 2 13 16 3 12 22 4 15 22 4 15 16 3 12 24 5 16 29 16 18 21 16 14 22 16 15 30 16 19 21 16 14 29 16 18 29 16 18 22 16 15 24 16 16 24 16 16 23 16 17 29 16 18</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="rootNode_Visual">
+      <node id="node_Line02" sid="Line02">
+        <translate>1.16536e-008 0.0733852 0.000121539</translate>
+        <rotate>2.38419e-007 1 -3.38157e-006 89.9998</rotate>
+        <instance_geometry url="#Line02">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material_1b377d64" target="#material_1b377d64"/>
+              <instance_material symbol="material_cdaca23a" target="#material_cdaca23a"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#rootNode_Visual"/>
+  </scene>
+</COLLADA>
