@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sqlite3" />
+		<Option pch_mode="2" />
+		<Option compiler="emscripten" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="sqlite3" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="./" />
+				<Option type="2" />
+				<Option compiler="emscripten" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add option="-DNO_BOOST" />
+					<Add directory="include" />
+					<Add directory="dAnimation" />
+					<Add directory="dContainers" />
+					<Add directory="dCustomJoints" />
+					<Add directory="dMath" />
+					<Add directory="tinyxml" />
+					<Add directory="./" />
+					<Add directory="thirdParty/collada-dom/dom/include" />
+					<Add directory="thirdParty/collada-dom/dom/include/1.4" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="include" />
+				</ResourceCompiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fPIC" />
+		</Compiler>
+		<Unit filename="dAnimation/dAnimationClip.cpp" />
+		<Unit filename="dAnimation/dAnimationClip.h" />
+		<Unit filename="dAnimation/dAnimationStdAfx.cpp" />
+		<Unit filename="dAnimation/dAnimationStdAfx.h" />
+		<Unit filename="dAnimation/dBone.cpp" />
+		<Unit filename="dAnimation/dBone.h" />
+		<Unit filename="dAnimation/dBonesToPoseBinding.cpp" />
+		<Unit filename="dAnimation/dBonesToPoseBinding.h" />
+		<Unit filename="dAnimation/dClassInfo.cpp" />
+		<Unit filename="dAnimation/dClassInfo.h" />
+		<Unit filename="dAnimation/dGlueToCollada.cpp" />
+		<Unit filename="dAnimation/dGlueToCollada.h" />
+		<Unit filename="dAnimation/dMesh.cpp" />
+		<Unit filename="dAnimation/dMesh.h" />
+		<Unit filename="dAnimation/dModel.cpp" />
+		<Unit filename="dAnimation/dModel.h" />
+		<Unit filename="dAnimation/dPoseGenerator.cpp" />
+		<Unit filename="dAnimation/dPoseGenerator.h" />
+		<Unit filename="dAnimation/dRtti.h" />
+		<Unit filename="dAnimation/dSkinModifier.cpp" />
+		<Unit filename="dAnimation/dSkinModifier.h" />
+		<Unit filename="dContainers/dBaseHierarchy.cpp" />
+		<Unit filename="dContainers/dBaseHierarchy.h" />
+		<Unit filename="dContainers/dCRC.cpp" />
+		<Unit filename="dContainers/dCRC.h" />
+		<Unit filename="dContainers/dContainersStdAfx.cpp" />
+		<Unit filename="dContainers/dContainersStdAfx.h" />
+		<Unit filename="dContainers/dHeap.h" />
+		<Unit filename="dContainers/dList.h" />
+		<Unit filename="dContainers/dRefCounter.cpp" />
+		<Unit filename="dContainers/dRefCounter.h" />
+		<Unit filename="dContainers/dTree.cpp" />
+		<Unit filename="dContainers/dTree.h" />
+		<Unit filename="dCustomJoints/Custom6DOF.cpp" />
+		<Unit filename="dCustomJoints/Custom6DOF.h" />
+		<Unit filename="dCustomJoints/CustomBallAndSocket.cpp" />
+		<Unit filename="dCustomJoints/CustomBallAndSocket.h" />
+		<Unit filename="dCustomJoints/CustomCorkScrew.cpp" />
+		<Unit filename="dCustomJoints/CustomCorkScrew.h" />
+		<Unit filename="dCustomJoints/CustomDGRayCastCar.cpp" />
+		<Unit filename="dCustomJoints/CustomDGRayCastCar.h" />
+		<Unit filename="dCustomJoints/CustomDryRollingFriction.cpp" />
+		<Unit filename="dCustomJoints/CustomDryRollingFriction.h" />
+		<Unit filename="dCustomJoints/CustomGear.cpp" />
+		<Unit filename="dCustomJoints/CustomGear.h" />
+		<Unit filename="dCustomJoints/CustomHinge.cpp" />
+		<Unit filename="dCustomJoints/CustomHinge.h" />
+		<Unit filename="dCustomJoints/CustomJointLibraryStdAfx.cpp" />
+		<Unit filename="dCustomJoints/CustomJointLibraryStdAfx.h" />
+		<Unit filename="dCustomJoints/CustomMultiBodyVehicle.cpp" />
+		<Unit filename="dCustomJoints/CustomMultiBodyVehicle.h" />
+		<Unit filename="dCustomJoints/CustomPathFollow.cpp" />
+		<Unit filename="dCustomJoints/CustomPathFollow.h" />
+		<Unit filename="dCustomJoints/CustomPickBody.cpp" />
+		<Unit filename="dCustomJoints/CustomPickBody.h" />
+		<Unit filename="dCustomJoints/CustomPlayerController.cpp" />
+		<Unit filename="dCustomJoints/CustomPlayerController.h" />
+		<Unit filename="dCustomJoints/CustomPulley.cpp" />
+		<Unit filename="dCustomJoints/CustomPulley.h" />
+		<Unit filename="dCustomJoints/CustomRagDoll.cpp" />
+		<Unit filename="dCustomJoints/CustomRagDoll.h" />
+		<Unit filename="dCustomJoints/CustomRayCastCar.cpp" />
+		<Unit filename="dCustomJoints/CustomRayCastCar.h" />
+		<Unit filename="dCustomJoints/CustomRayCastCar.o" />
+		<Unit filename="dCustomJoints/CustomSlider.cpp" />
+		<Unit filename="dCustomJoints/CustomSlider.h" />
+		<Unit filename="dCustomJoints/CustomSlidingContact.cpp" />
+		<Unit filename="dCustomJoints/CustomSlidingContact.h" />
+		<Unit filename="dCustomJoints/CustomUniversal.cpp" />
+		<Unit filename="dCustomJoints/CustomUniversal.h" />
+		<Unit filename="dCustomJoints/CustomUpVector.cpp" />
+		<Unit filename="dCustomJoints/CustomUpVector.h" />
+		<Unit filename="dCustomJoints/CustomUserBlank.cpp" />
+		<Unit filename="dCustomJoints/CustomUserBlank.h" />
+		<Unit filename="dCustomJoints/CustomWormGear.cpp" />
+		<Unit filename="dCustomJoints/CustomWormGear.h" />
+		<Unit filename="dCustomJoints/JointLibrary.cpp" />
+		<Unit filename="dCustomJoints/JointLibrary.h" />
+		<Unit filename="dCustomJoints/NewtonCustomJoint.cpp" />
+		<Unit filename="dCustomJoints/NewtonCustomJoint.h" />
+		<Unit filename="dMath/dMathDefines.cpp" />
+		<Unit filename="dMath/dMathDefines.h" />
+		<Unit filename="dMath/dMatrix.cpp" />
+		<Unit filename="dMath/dMatrix.h" />
+		<Unit filename="dMath/dQuaternion.cpp" />
+		<Unit filename="dMath/dQuaternion.h" />
+		<Unit filename="dMath/dStdAfxMath.cpp" />
+		<Unit filename="dMath/dStdAfxMath.h" />
+		<Unit filename="dMath/dVector.cpp" />
+		<Unit filename="dMath/dVector.h" />
+		<Unit filename="thirdParty/tinyxml/tinystr.cpp" />
+		<Unit filename="thirdParty/tinyxml/tinystr.h" />
+		<Unit filename="thirdParty/tinyxml/tinyxml.cpp" />
+		<Unit filename="thirdParty/tinyxml/tinyxml.h" />
+		<Unit filename="thirdParty/tinyxml/tinyxmlerror.cpp" />
+		<Unit filename="thirdParty/tinyxml/tinyxmlparser.cpp" />
+		<Unit filename="thirdParty/tinyxml/xmltest.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
