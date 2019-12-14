@@ -15,7 +15,6 @@
 				<Option object_output="obj" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option use_console_runner="0" />
 				<Option projectCompilerOptionsRelation="1" />
 				<Option projectLinkerOptionsRelation="1" />
 				<Option projectIncludeDirsRelation="1" />
@@ -47,7 +46,6 @@
 				<Option object_output="./obj" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option use_console_runner="0" />
 				<Option projectCompilerOptionsRelation="1" />
 				<Option projectLinkerOptionsRelation="1" />
 				<Option projectIncludeDirsRelation="1" />
@@ -89,7 +87,6 @@
 				<Option object_output="./obj" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option use_console_runner="0" />
 				<Option projectCompilerOptionsRelation="1" />
 				<Option projectLinkerOptionsRelation="1" />
 				<Option projectIncludeDirsRelation="1" />
@@ -103,11 +100,11 @@
 					<Add option="-O" />
 					<Add option="-fpermissive" />
 					<Add directory="include" />
-					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/include" />
 					<Add directory="libs/irrlicht-1.7.1/include" />
 					<Add directory="libs/micropather_1_2_0" />
 					<Add directory="libs/IrrNewt/include" />
 					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
+					<Add directory="libs/cAudio2/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -124,7 +121,7 @@
 					<Add library="openal" />
 					<Add library="X11" />
 					<Add library="GLU" />
-					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/bin/gcc" />
+					<Add directory="libs/cAudio2/bin/gcc" />
 					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
 					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/projets/linux64" />
 				</Linker>
@@ -135,7 +132,6 @@
 				<Option object_output="./184obj" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option use_console_runner="0" />
 				<Option projectCompilerOptionsRelation="1" />
 				<Option projectLinkerOptionsRelation="1" />
 				<Option projectIncludeDirsRelation="1" />
@@ -150,7 +146,7 @@
 					<Add directory="include" />
 					<Add directory="include/newton" />
 					<Add directory="/usr/lib" />
-					<Add directory="libs/irrlicht-1.7.12/include" />
+					<Add directory="libs/irrlicht-1.7.1/include" />
 					<Add directory="libs/micropather_1_2_0" />
 					<Add directory="libs/IrrNewt/include" />
 					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
@@ -167,7 +163,7 @@
 					<Add library="openal" />
 					<Add library="cAudio" />
 					<Add directory="libs/cAudio2/bin" />
-					<Add directory="libs/irrlicht-1.8.4/lib/Linux" />
+					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
 					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
 				</Linker>
 			</Target>
