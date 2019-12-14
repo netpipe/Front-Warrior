@@ -129,6 +129,48 @@
 					<Add directory="libs/newtonSDK/sdk" />
 				</Linker>
 			</Target>
+			<Target title="Linux irrlicht -184">
+				<Option output="bin/FrontWarrior" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="./184obj" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectCompilerOptionsRelation="1" />
+				<Option projectLinkerOptionsRelation="1" />
+				<Option projectIncludeDirsRelation="1" />
+				<Option projectLibDirsRelation="1" />
+				<Compiler>
+					<Add option="-fexpensive-optimizations" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+					<Add directory="include" />
+					<Add directory="include/newton" />
+					<Add directory="/usr/lib" />
+					<Add directory="libs/irrlicht-1.7.12/include" />
+					<Add directory="libs/micropather_1_2_0" />
+					<Add directory="libs/IrrNewt/include" />
+					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
+					<Add directory="libs/cAudio2/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Xxf86vm" />
+					<Add library="GL" />
+					<Add library="Irrlicht" />
+					<Add library="Newton" />
+					<Add library="pthread" />
+					<Add library="ogg" />
+					<Add library="openal" />
+					<Add library="cAudio" />
+					<Add directory="libs/cAudio2/bin" />
+					<Add directory="libs/irrlicht-1.8.4/lib/Linux" />
+					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
+				</Linker>
+			</Target>
 		</Build>
 		<Unit filename="include/Atmosphere.h">
 			<Option virtualFolder="Engine/Level/" />

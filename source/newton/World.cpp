@@ -140,8 +140,8 @@ CBody * CPhysicsWorld::createBody(SBodyCreationParameters params)
     isDynamicBody = false;
 
   newtonCollision = createCollisionFromBodyParameters(params);
-
-	newtonBody = NewtonCreateBody(m_NewtonWorld, newtonCollision);
+const dFloat* matrix;
+	newtonBody = NewtonCreateBody(m_NewtonWorld, newtonCollision,matrix);
 
   // Dynamic body
   if(isDynamicBody)
