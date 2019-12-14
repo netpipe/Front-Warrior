@@ -2,35 +2,134 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Linux-Static" />
-	<File name="include/body.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="379" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="include/vehicle_car.hpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2702" topLine="81" />
+			<Cursor1 position="2702" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+		</Folding>
 	</File>
 	<File name="IrrNewt_src/tree_body.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="914" topLine="18" />
+			<Cursor1 position="914" topLine="0" />
 		</Cursor>
-	</File>
-	<File name="include/hidden.hpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5032" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="IrrNewt_src/collision.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="725" topLine="0" />
-		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="21" />
+			<Collapse line="37" />
+			<Collapse line="95" />
+			<Collapse line="107" />
+		</Folding>
 	</File>
 	<File name="IrrNewt_src/body.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="271" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="26" />
+			<Collapse line="38" />
+			<Collapse line="185" />
+			<Collapse line="193" />
+			<Collapse line="219" />
+			<Collapse line="227" />
+			<Collapse line="250" />
+			<Collapse line="264" />
+			<Collapse line="269" />
+			<Collapse line="278" />
+			<Collapse line="291" />
+			<Collapse line="296" />
+			<Collapse line="300" />
+			<Collapse line="306" />
+			<Collapse line="313" />
+			<Collapse line="319" />
+			<Collapse line="322" />
+			<Collapse line="328" />
+			<Collapse line="332" />
+			<Collapse line="359" />
+			<Collapse line="364" />
+			<Collapse line="368" />
+			<Collapse line="372" />
+			<Collapse line="376" />
+			<Collapse line="383" />
+			<Collapse line="390" />
+			<Collapse line="405" />
+			<Collapse line="426" />
+			<Collapse line="437" />
+			<Collapse line="451" />
+			<Collapse line="458" />
+			<Collapse line="467" />
+			<Collapse line="486" />
+			<Collapse line="493" />
+			<Collapse line="507" />
+			<Collapse line="514" />
+			<Collapse line="518" />
+			<Collapse line="524" />
+			<Collapse line="542" />
+			<Collapse line="548" />
+			<Collapse line="608" />
+			<Collapse line="630" />
+			<Collapse line="635" />
+			<Collapse line="659" />
+			<Collapse line="668" />
+			<Collapse line="674" />
+			<Collapse line="679" />
+			<Collapse line="683" />
+			<Collapse line="688" />
+			<Collapse line="696" />
+			<Collapse line="707" />
+			<Collapse line="717" />
+			<Collapse line="728" />
+		</Folding>
 	</File>
-	<EditorTabsLayout layout="060e8b70551df2ce002d3aa500000002=0;IrrNewt:IrrNewt_src/body.cpp,1;IrrNewt:include/body.hpp,2;IrrNewt:IrrNewt_src/tree_body.cpp,3;IrrNewt:include/vehicle_car.hpp,4;IrrNewt:IrrNewt_src/collision.cpp,*5;IrrNewt:include/hidden.hpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=432;besth=730;minw=432;minh=730;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=060e8b70551df2ce002d3aa500000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+	<File name="include/body.hpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="379" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="24" />
+			<Collapse line="533" />
+			<Collapse line="537" />
+			<Collapse line="541" />
+			<Collapse line="545" />
+			<Collapse line="549" />
+			<Collapse line="553" />
+			<Collapse line="557" />
+		</Folding>
+	</File>
+	<File name="IrrNewt_src/collision.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="725" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+			<Collapse line="112" />
+			<Collapse line="173" />
+			<Collapse line="208" />
+			<Collapse line="425" />
+			<Collapse line="474" />
+			<Collapse line="540" />
+			<Collapse line="559" />
+			<Collapse line="583" />
+			<Collapse line="588" />
+			<Collapse line="592" />
+			<Collapse line="596" />
+			<Collapse line="600" />
+		</Folding>
+	</File>
+	<File name="include/hidden.hpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5032" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+			<Collapse line="142" />
+			<Collapse line="167" />
+			<Collapse line="176" />
+			<Collapse line="188" />
+			<Collapse line="192" />
+			<Collapse line="197" />
+		</Folding>
+	</File>
+	<EditorTabsLayout layout="02f728005df500be0013858e00000002=0;IrrNewt:IrrNewt_src/body.cpp,1;IrrNewt:include/body.hpp,2;IrrNewt:IrrNewt_src/tree_body.cpp,3;IrrNewt:include/vehicle_car.hpp,4;IrrNewt:IrrNewt_src/collision.cpp,*5;IrrNewt:include/hidden.hpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=340;besth=296;minw=340;minh=296;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=02f728005df500be0013858e00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>

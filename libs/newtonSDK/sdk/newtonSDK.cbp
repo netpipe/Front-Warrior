@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="sqlite3" />
+		<Option title="Newton" />
 		<Option pch_mode="2" />
 		<Option compiler="emscripten" />
 		<Build>
 			<Target title="Debug Win32">
-				<Option output="sqlite3" prefix_auto="1" extension_auto="1" />
+				<Option output="Newton" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="" />
 				<Option object_output="./" />
 				<Option type="2" />

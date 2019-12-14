@@ -6,7 +6,7 @@
 		<Option makefile="MakefileCodeBlocks" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Engine/;Engine/Core/;Game/;Engine/Pathfinder/;Engine/Physics/;Game/Characters/;Engine/AI/;Engine/Character/;Engine/Level/;Game/Vehicles/;Engine/Input/;Engine/Sound/;Game/Level/;Game/Missions/;Engine/Vehicle/;Game/Weapons/;Game/GUI/;Engine/Network/;Game/Game/;Engine/Level/BatchingMesh/;Engine/Physics/Newton/;Engine/Level/Grass/;Engine/Level/Terrain/;" />
+		<Option virtualFolders="Engine/;Engine/Core/;Game/;Engine/Pathfinder/;Engine/Physics/;Game/Characters/;Engine/AI/;Engine/Character/;Engine/Level/;Game/Vehicles/;Engine/Input/;Engine/Sound/;Game/Level/;Game/Missions/;Engine/Vehicle/;Game/Weapons/;Game/GUI/;Engine/Network/;Game/Game/;Engine/Level/BatchingMesh/;Engine/Physics/Newton/;Engine/Level/Grass/;Engine/Level/Terrain/" />
 		<Build>
 			<Target title="Win32">
 				<Option platforms="Windows;" />
@@ -103,12 +103,11 @@
 					<Add option="-O" />
 					<Add option="-fpermissive" />
 					<Add directory="include" />
-					<Add directory="include/newton" />
 					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/include" />
 					<Add directory="libs/irrlicht-1.7.1/include" />
 					<Add directory="libs/micropather_1_2_0" />
 					<Add directory="libs/IrrNewt/include" />
-					<Add directory="libs/newtonSDK/sdk" />
+					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/source/newton" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -432,10 +431,6 @@
 		<Unit filename="source/newton/World.cpp">
 			<Option virtualFolder="Engine/Physics/Newton/" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<debugger />
-			<envvars />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
