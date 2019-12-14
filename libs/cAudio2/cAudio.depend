@@ -1,0 +1,842 @@
+# depslib dependency file v1.0
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cAudioCapture.cpp
+	"../Headers/cAudioCapture.h"
+	"../Headers/cUtils.h"
+	"../Headers/cThread.h"
+	"../include/cAudioSleep.h"
+	"../Headers/cLogger.h"
+	"../Headers/cPluginManager.h"
+	<string.h>
+	<set>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cAudioCapture.h
+	"../include/IAudioCapture.h"
+	<vector>
+	<AL/al.h>
+	<AL/alc.h>
+	"../Headers/cMutex.h"
+	<string>
+	<list>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/EAudioFormats.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/cAudioDefines.h
+	"cAudioPlatform.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/cAudioPlatform.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/ICaptureEventHandler.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cMutex.h
+	"../include/cAudioDefines.h"
+	<windows.h>
+	<pthread.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cUtils.h
+	"../include/cAudioPlatform.h"
+	<string>
+	<vector>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<dirent.h>
+	<stdio.h>
+	<cstring>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cThread.h
+	"../include/cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cLogger.h
+	<map>
+	<string>
+	<stdarg.h>
+	"../include/ILogger.h"
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/ILogReceiver.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cPluginManager.h
+	<string>
+	<map>
+	<vector>
+	"../include/IPluginManager.h"
+	"../include/IAudioPlugin.h"
+	"../Headers/cMutex.h"
+	<windows.h>
+	"macUtils.h"
+	<dlfcn.h>
+	<dlfcn.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IPluginManager.h
+	"IAudioPlugin.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IRefCounted.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/cVector3.h
+	<math.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IDataSource.h
+	"IRefCounted.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IManagerEventHandler.h
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cAudioEffects.cpp
+	"../Headers/cAudioEffects.h"
+	"../Headers/cFilter.h"
+	"../Headers/cEffect.h"
+	"../Headers/cUtils.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cAudioEffects.h
+	"../include/IAudioEffects.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<map>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cEFXFunctions.h
+	"../include/cAudioDefines.h"
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/efx.h>
+	<AL/efx-creative.h>
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cFilter.h
+	"../include/IFilter.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cEffect.h
+	"../include/IEffect.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cAudioManager.cpp
+	"../Headers/cAudioManager.h"
+	"../Headers/cFileSource.h"
+	"../Headers/cMemorySource.h"
+	"../Headers/cUtils.h"
+	"../Headers/cOggAudioDecoderFactory.h"
+	"../Headers/cWavAudioDecoderFactory.h"
+	"../Headers/cRawAudioDecoderFactory.h"
+	"../Headers/cThread.h"
+	"../include/cAudioSleep.h"
+	"../Headers/cLogger.h"
+	"../Headers/cPluginManager.h"
+	"../include/cAudioPlatform.h"
+	"../Headers/cFileSourceFactory.h"
+	<set>
+	<string.h>
+	<algorithm>
+	<AL/efx.h>
+	<AL/efx-creative.h>
+	<AL/xram.h>
+	<AL/alext.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cAudioManager.h
+	<map>
+	<string>
+	<vector>
+	"cAudioSource.h"
+	"../include/IAudioDecoderFactory.h"
+	"cListener.h"
+	"../include/IAudioManager.h"
+	"../Headers/cMutex.h"
+	"../Headers/cAudioEffects.h"
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alext.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cAudioSource.h
+	<list>
+	<string>
+	<vector>
+	<AL/al.h>
+	<AL/alc.h>
+	"../include/IAudioSource.h"
+	"../include/cVector3.h"
+	"../Headers/cMutex.h"
+	"../include/ILogger.h"
+	"../Headers/cEFXFunctions.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioSource.h
+	"cAudioDefines.h"
+	"IRefCounted.h"
+	"IAudioDecoder.h"
+	"cVector3.h"
+	"IEffect.h"
+	"IFilter.h"
+	"ISourceEventHandler.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioDecoder.h
+	"IRefCounted.h"
+	"IDataSource.h"
+	"EAudioFormats.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/ISourceEventHandler.h
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/include/IAudioDecoderFactory.h
+	"IAudioDecoder.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cListener.h
+	"../include/IListener.h"
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cFileSource.h
+	"../include/IDataSource.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cMemorySource.h
+	"../include/IDataSource.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cOggAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cOggDecoder.h"
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cOggDecoder.h
+	"../include/cAudioDefines.h"
+	"../include/IAudioDecoder.h"
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cWavAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cWavDecoder.h"
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cWavDecoder.h
+	"../include/IAudioDecoder.h"
+	"../include/cAudioDefines.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cRawAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cRawDecoder.h"
+	"../Headers/cMutex.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cRawDecoder.h
+	"../include/IAudioDecoder.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cFileSourceFactory.h
+	"../include/IDataSourceFactory.h"
+	"../Headers/cFileSource.h"
+	"../Headers/cMemorySource.h"
+	"../Headers/cMutex.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cAudioSleep.cpp
+	"../include/cAudioPlatform.h"
+	<windows.h>
+	<unistd.h>
+	<time.h>
+	"../include/cAudioSleep.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cAudioSource.cpp
+	"../Headers/cAudioSource.h"
+	"../Headers/cLogger.h"
+	"../Headers/cFilter.h"
+	"../Headers/cEffect.h"
+	<string.h>
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cConsoleLogReceiver.cpp
+	"../Headers/cConsoleLogReceiver.h"
+	<iostream>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cConsoleLogReceiver.h
+	"../include/ILogReceiver.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cEffect.cpp
+	"../Headers/cEffect.h"
+	"../Headers/cLogger.h"
+	"../Headers/cUtils.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cFileLogReceiver.cpp
+	"../Headers/cFileLogReceiver.h"
+	<iostream>
+	<fstream>
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cFileLogReceiver.h
+	"../include/ILogReceiver.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cFileSource.cpp
+	"../Headers/cFileSource.h"
+	<cstring>
+	"../Headers/cUtils.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cFilter.cpp
+	"../Headers/cFilter.h"
+	"../Headers/cLogger.h"
+	"../Headers/cUtils.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cListener.cpp
+	"../Headers/cListener.h"
+	<AL/al.h>
+	"../Headers/cEFXFunctions.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cLogger.cpp
+	<time.h>
+	"../Headers/cLogger.h"
+	"../Headers/cConsoleLogReceiver.h"
+	"../Headers/cFileLogReceiver.h"
+	"../Headers/cUtils.h"
+
+1362032262 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cMemoryManager.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	<stdarg.h>
+	<unistd.h>
+	<new.h>
+	<mpatrol.h>
+	"../Headers/cMemoryManager.h"
+	"../include/cAudioDefines.h"
+
+1362032262 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cMemoryManager.h
+	"cNonMemoryManager.h"
+
+1269075907 /home/tecan/games/Luna/LunaLibs/cAudio2/Headers/cNonMemoryManager.h
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cMemorySource.cpp
+	<cstring>
+	<iostream>
+	"../Headers/cMemoryManager.h"
+	"../Headers/cMemorySource.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cMutex.cpp
+	"../Headers/cMutex.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cOggAudioDecoderFactory.cpp
+	"../Headers/cOggAudioDecoderFactory.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cOggDecoder.cpp
+	"../Headers/cOggDecoder.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cPluginManager.cpp
+	"../Headers/cPluginManager.h"
+	"../Headers/cUtils.h"
+	"../include/cAudioPlatform.h"
+	"../include/cAudioDefines.h"
+	"../include/ILogger.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cRawDecoder.cpp
+	"../Headers/cRawDecoder.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cThread.cpp
+	"../Headers/cThread.h"
+	<windows.h>
+	<process.h>
+	<pthread.h>
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cWavAudioDecoderFactory.cpp
+	"../Headers/cWavAudioDecoderFactory.h"
+
+1269075907 source:/home/tecan/games/Luna/LunaLibs/cAudio2/Source/cWavDecoder.cpp
+	"../Headers/cWavDecoder.h"
+	<string.h>
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cAudioCapture.cpp
+	"../Headers/cAudioCapture.h"
+	"../Headers/cUtils.h"
+	"../Headers/cThread.h"
+	"../include/cAudioSleep.h"
+	"../Headers/cLogger.h"
+	"../Headers/cPluginManager.h"
+	<string.h>
+	<set>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cAudioCapture.h
+	"../include/IAudioCapture.h"
+	<vector>
+	<AL/al.h>
+	<AL/alc.h>
+	"../Headers/cMutex.h"
+	<string>
+	<list>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/EAudioFormats.h
+
+1266726972 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/cAudioDefines.h
+	"cAudioPlatform.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/cAudioPlatform.h
+
+1266546306 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/ICaptureEventHandler.h
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cMutex.h
+	"../include/cAudioDefines.h"
+	<windows.h>
+	<pthread.h>
+
+1266638252 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cUtils.h
+	"../include/cAudioPlatform.h"
+	<string>
+	<vector>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<dirent.h>
+	<stdio.h>
+	<cstring>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cThread.h
+	"../include/cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cLogger.h
+	<map>
+	<string>
+	<stdarg.h>
+	"../include/ILogger.h"
+	"../Headers/cMutex.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/ILogReceiver.h
+
+1266642122 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cPluginManager.h
+	<string>
+	<map>
+	<vector>
+	"../include/IPluginManager.h"
+	"../include/IAudioPlugin.h"
+	"../Headers/cMutex.h"
+	<windows.h>
+	"macUtils.h"
+	<dlfcn.h>
+	<dlfcn.h>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IPluginManager.h
+	"IAudioPlugin.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IRefCounted.h
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/cVector3.h
+	<math.h>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IDataSource.h
+	"IRefCounted.h"
+
+1266546306 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IManagerEventHandler.h
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cAudioEffects.cpp
+	"../Headers/cAudioEffects.h"
+	"../Headers/cFilter.h"
+	"../Headers/cEffect.h"
+	"../Headers/cUtils.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cAudioEffects.h
+	"../include/IAudioEffects.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<map>
+
+1266944960 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cEFXFunctions.h
+	"../include/cAudioDefines.h"
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/efx.h>
+	<AL/efx-creative.h>
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cFilter.h
+	"../include/IFilter.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cEffect.h
+	"../include/IEffect.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1266640672 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cAudioManager.cpp
+	"../Headers/cAudioManager.h"
+	"../Headers/cFileSource.h"
+	"../Headers/cMemorySource.h"
+	"../Headers/cUtils.h"
+	"../Headers/cOggAudioDecoderFactory.h"
+	"../Headers/cWavAudioDecoderFactory.h"
+	"../Headers/cRawAudioDecoderFactory.h"
+	"../Headers/cThread.h"
+	"../include/cAudioSleep.h"
+	"../Headers/cLogger.h"
+	"../Headers/cPluginManager.h"
+	"../include/cAudioPlatform.h"
+	"../Headers/cFileSourceFactory.h"
+	<set>
+	<string.h>
+	<algorithm>
+	<AL/efx.h>
+	<AL/efx-creative.h>
+	<AL/xram.h>
+	<AL/alext.h>
+
+1266646532 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cAudioManager.h
+	<map>
+	<string>
+	<vector>
+	"cAudioSource.h"
+	"../include/IAudioDecoderFactory.h"
+	"cListener.h"
+	"../include/IAudioManager.h"
+	"../Headers/cMutex.h"
+	"../Headers/cAudioEffects.h"
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/alext.h>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cAudioSource.h
+	<list>
+	<string>
+	<vector>
+	<AL/al.h>
+	<AL/alc.h>
+	"../include/IAudioSource.h"
+	"../include/cVector3.h"
+	"../Headers/cMutex.h"
+	"../include/ILogger.h"
+	"../Headers/cEFXFunctions.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioSource.h
+	"cAudioDefines.h"
+	"IRefCounted.h"
+	"IAudioDecoder.h"
+	"cVector3.h"
+	"IEffect.h"
+	"IFilter.h"
+	"ISourceEventHandler.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioDecoder.h
+	"IRefCounted.h"
+	"IDataSource.h"
+	"EAudioFormats.h"
+
+1266546306 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/ISourceEventHandler.h
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/include/IAudioDecoderFactory.h
+	"IAudioDecoder.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cListener.h
+	"../include/IListener.h"
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cFileSource.h
+	"../include/IDataSource.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cMemorySource.h
+	"../include/IDataSource.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cOggAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cOggDecoder.h"
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cOggDecoder.h
+	"../include/cAudioDefines.h"
+	"../include/IAudioDecoder.h"
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+
+1572020774 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Vorbis/include/vorbis/codec.h
+	<ogg/ogg.h>
+
+1572020774 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Vorbis/include/vorbis/vorbisenc.h
+	"codec.h"
+
+1572020774 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Vorbis/include/vorbis/vorbisfile.h
+	<stdio.h>
+	"codec.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cWavAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cWavDecoder.h"
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cWavDecoder.h
+	"../include/IAudioDecoder.h"
+	"../include/cAudioDefines.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cRawAudioDecoderFactory.h
+	"../include/IAudioDecoderFactory.h"
+	"cRawDecoder.h"
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cRawDecoder.h
+	"../include/IAudioDecoder.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cFileSourceFactory.h
+	"../include/IDataSourceFactory.h"
+	"../Headers/cFileSource.h"
+	"../Headers/cMemorySource.h"
+	"../Headers/cMutex.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cAudioSleep.cpp
+	"../include/cAudioPlatform.h"
+	<windows.h>
+	<unistd.h>
+	<time.h>
+	"../include/cAudioSleep.h"
+
+1266791556 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cAudioSource.cpp
+	"../Headers/cAudioSource.h"
+	"../Headers/cLogger.h"
+	"../Headers/cFilter.h"
+	"../Headers/cEffect.h"
+	<string.h>
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cConsoleLogReceiver.cpp
+	"../Headers/cConsoleLogReceiver.h"
+	<iostream>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cConsoleLogReceiver.h
+	"../include/ILogReceiver.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cEffect.cpp
+	"../Headers/cEffect.h"
+	"../Headers/cLogger.h"
+	"../Headers/cUtils.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cFileLogReceiver.cpp
+	"../Headers/cFileLogReceiver.h"
+	<iostream>
+	<fstream>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cFileLogReceiver.h
+	"../include/ILogReceiver.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cFileSource.cpp
+	"../Headers/cFileSource.h"
+	<cstring>
+	"../Headers/cUtils.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cFilter.cpp
+	"../Headers/cFilter.h"
+	"../Headers/cLogger.h"
+	"../Headers/cUtils.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cListener.cpp
+	"../Headers/cListener.h"
+	<AL/al.h>
+	"../Headers/cEFXFunctions.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cLogger.cpp
+	<time.h>
+	"../Headers/cLogger.h"
+	"../Headers/cConsoleLogReceiver.h"
+	"../Headers/cFileLogReceiver.h"
+	"../Headers/cUtils.h"
+
+1573606128 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/openal-soft/include/AL/al.h
+
+1573606128 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/openal-soft/include/AL/alc.h
+
+1573606128 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/openal-soft/include/AL/efx.h
+	<float.h>
+	"alc.h"
+	"al.h"
+
+1573606128 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/openal-soft/include/AL/efx-creative.h
+
+1573606128 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/openal-soft/include/AL/alext.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	"alc.h"
+	"al.h"
+	"efx.h"
+
+1572020761 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Ogg/include/ogg/ogg.h
+	<stddef.h>
+	<ogg/os_types.h>
+
+1572055690 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Ogg/include/ogg/os_types.h
+	<stdint.h>
+	<sys/types.h>
+	<stdint.h>
+	<inttypes.h>
+	<sys/types.h>
+	<inttypes.h>
+	<ogg/config_types.h>
+
+1572055917 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/EMLibs/media/Ogg/include/ogg/config_types.h
+	<inttypes.h>
+	<stdint.h>
+	<sys/types.h>
+
+1266930439 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cMemoryManager.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	<stdarg.h>
+	<new.h>
+	<mpatrol.h>
+	"../Headers/cMemoryManager.h"
+	"../include/cAudioDefines.h"
+
+1266717854 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cMemoryManager.h
+	"cNonMemoryManager.h"
+
+977553140 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Headers/cNonMemoryManager.h
+
+1266731292 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cMemorySource.cpp
+	<cstring>
+	<iostream>
+	"../Headers/cMemoryManager.h"
+	"../Headers/cMemorySource.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cMutex.cpp
+	"../Headers/cMutex.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cOggAudioDecoderFactory.cpp
+	"../Headers/cOggAudioDecoderFactory.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cOggDecoder.cpp
+	"../Headers/cOggDecoder.h"
+
+1266722050 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cPluginManager.cpp
+	"../Headers/cPluginManager.h"
+	"../Headers/cUtils.h"
+	"../include/cAudioPlatform.h"
+	"../include/cAudioDefines.h"
+	"../include/ILogger.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cRawDecoder.cpp
+	"../Headers/cRawDecoder.h"
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cThread.cpp
+	"../Headers/cThread.h"
+	<windows.h>
+	<process.h>
+	<pthread.h>
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cWavAudioDecoderFactory.cpp
+	"../Headers/cWavAudioDecoderFactory.h"
+
+1266642584 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/LunaLibs/cAudio2/Source/cWavDecoder.cpp
+	"../Headers/cWavDecoder.h"
+	<string.h>
+
