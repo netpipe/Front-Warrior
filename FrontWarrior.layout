@@ -2,20 +2,98 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Tecan" />
+	<File name="source/newton/World.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3623" topLine="24" />
+		</Cursor>
+		<Folding>
+			<Collapse line="10" />
+			<Collapse line="18" />
+			<Collapse line="22" />
+			<Collapse line="26" />
+			<Collapse line="53" />
+			<Collapse line="57" />
+			<Collapse line="83" />
+			<Collapse line="213" />
+			<Collapse line="277" />
+			<Collapse line="284" />
+			<Collapse line="342" />
+			<Collapse line="372" />
+			<Collapse line="390" />
+			<Collapse line="398" />
+			<Collapse line="402" />
+			<Collapse line="425" />
+			<Collapse line="431" />
+			<Collapse line="449" />
+			<Collapse line="453" />
+			<Collapse line="466" />
+			<Collapse line="509" />
+			<Collapse line="513" />
+			<Collapse line="520" />
+		</Folding>
+	</File>
 	<File name="source/Weapon.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="3748" topLine="121" />
 		</Cursor>
 	</File>
-	<File name="source/Physics.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include/BaseCharacter.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="source/Network.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="include/ShaderManager.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
+		<Folding>
+			<Collapse line="5" />
+		</Folding>
+	</File>
+	<File name="include/Renderer.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="90" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="6" />
+		</Folding>
+	</File>
+	<File name="include/SoundManager.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="122" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="15" />
+		</Folding>
+	</File>
+	<File name="include/Game.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/CompileConfig.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="297" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="source/GUI.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="21" />
+			<Collapse line="37" />
+			<Collapse line="43" />
+			<Collapse line="48" />
+			<Collapse line="71" />
+			<Collapse line="352" />
+			<Collapse line="362" />
+			<Collapse line="370" />
+			<Collapse line="389" />
+			<Collapse line="433" />
+			<Collapse line="611" />
+			<Collapse line="644" />
+		</Folding>
 	</File>
 	<File name="include/ObjectManager.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
@@ -23,6 +101,24 @@
 		</Cursor>
 		<Folding>
 			<Collapse line="13" />
+		</Folding>
+	</File>
+	<File name="include/Core.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="res.rc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/GameClasses.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="3" />
 		</Folding>
 	</File>
 	<File name="source/Game.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -56,120 +152,182 @@
 			<Collapse line="909" />
 		</Folding>
 	</File>
-	<File name="include/CompileConfig.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="297" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include/Core.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="source/SoundManager.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="source/ShaderManager.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4203" topLine="13" />
-		</Cursor>
-	</File>
-	<File name="include/BaseCharacter.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="source/Camera.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include/GameClasses.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="res.rc" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="include/Configuration.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="include/SoundManager.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="source/Main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="122" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="15" />
-		</Folding>
-	</File>
-	<File name="include/Renderer.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="90" topLine="0" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="source/Renderer.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="source/Network.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="source/ObjectManager.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="63746" topLine="1944" />
+			<Cursor1 position="64366" topLine="127" />
 		</Cursor>
 		<Folding>
-			<Collapse line="2208" />
+			<Collapse line="39" />
+			<Collapse line="65" />
+			<Collapse line="74" />
+			<Collapse line="159" />
+			<Collapse line="282" />
+			<Collapse line="305" />
+			<Collapse line="326" />
+			<Collapse line="338" />
+			<Collapse line="354" />
+			<Collapse line="462" />
+			<Collapse line="1268" />
+			<Collapse line="1632" />
+			<Collapse line="1639" />
+			<Collapse line="1782" />
+			<Collapse line="1787" />
+			<Collapse line="1797" />
+			<Collapse line="1813" />
+			<Collapse line="1821" />
+			<Collapse line="1835" />
+			<Collapse line="1860" />
+			<Collapse line="1864" />
+			<Collapse line="1981" />
+			<Collapse line="1985" />
+			<Collapse line="2033" />
+			<Collapse line="2046" />
+			<Collapse line="2054" />
+			<Collapse line="2591" />
+			<Collapse line="2605" />
+			<Collapse line="2772" />
+			<Collapse line="3098" />
+			<Collapse line="3131" />
+			<Collapse line="3231" />
+			<Collapse line="3748" />
+			<Collapse line="3756" />
+			<Collapse line="3844" />
+			<Collapse line="3864" />
+			<Collapse line="3899" />
+			<Collapse line="3905" />
+			<Collapse line="3918" />
+			<Collapse line="3945" />
 		</Folding>
 	</File>
-	<File name="source/Main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="source/Physics.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="8" />
-		</Folding>
-	</File>
-	<File name="include/Game.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="source/newton/World.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3623" topLine="24" />
-		</Cursor>
-		<Folding>
-			<Collapse line="127" />
-		</Folding>
-	</File>
-	<File name="include/ShaderManager.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="source/GUI.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="0" />
-		</Cursor>
-		<Folding>
-			<Collapse line="21" />
-			<Collapse line="37" />
-			<Collapse line="43" />
-			<Collapse line="48" />
-			<Collapse line="71" />
-			<Collapse line="352" />
-			<Collapse line="362" />
-			<Collapse line="370" />
-			<Collapse line="389" />
+			<Collapse line="11" />
+			<Collapse line="15" />
+			<Collapse line="39" />
+			<Collapse line="68" />
+			<Collapse line="72" />
+			<Collapse line="74" />
+			<Collapse line="79" />
+			<Collapse line="85" />
+			<Collapse line="92" />
+			<Collapse line="135" />
+			<Collapse line="139" />
+			<Collapse line="169" />
+			<Collapse line="171" />
+			<Collapse line="234" />
+			<Collapse line="262" />
+			<Collapse line="276" />
+			<Collapse line="301" />
+			<Collapse line="325" />
+			<Collapse line="332" />
+			<Collapse line="402" />
 			<Collapse line="433" />
-			<Collapse line="611" />
-			<Collapse line="644" />
+			<Collapse line="455" />
+			<Collapse line="483" />
+			<Collapse line="495" />
+			<Collapse line="500" />
+			<Collapse line="506" />
+			<Collapse line="515" />
+			<Collapse line="540" />
+			<Collapse line="557" />
+			<Collapse line="559" />
+			<Collapse line="583" />
+			<Collapse line="585" />
+			<Collapse line="597" />
+			<Collapse line="599" />
+			<Collapse line="702" />
+			<Collapse line="705" />
+			<Collapse line="714" />
+			<Collapse line="723" />
+			<Collapse line="731" />
+			<Collapse line="734" />
+			<Collapse line="743" />
+			<Collapse line="750" />
+			<Collapse line="759" />
+			<Collapse line="785" />
+		</Folding>
+	</File>
+	<File name="source/Camera.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="source/Renderer.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="109" />
+			<Collapse line="143" />
+			<Collapse line="237" />
+			<Collapse line="275" />
+			<Collapse line="399" />
+			<Collapse line="462" />
+			<Collapse line="594" />
+			<Collapse line="708" />
+			<Collapse line="770" />
+		</Folding>
+	</File>
+	<File name="source/ShaderManager.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4203" topLine="13" />
+		</Cursor>
+		<Folding>
+			<Collapse line="14" />
+			<Collapse line="27" />
+			<Collapse line="40" />
+			<Collapse line="43" />
+			<Collapse line="106" />
+			<Collapse line="109" />
+			<Collapse line="125" />
+			<Collapse line="128" />
+			<Collapse line="154" />
+			<Collapse line="157" />
+			<Collapse line="172" />
+			<Collapse line="239" />
+			<Collapse line="297" />
+			<Collapse line="348" />
+			<Collapse line="391" />
+		</Folding>
+	</File>
+	<File name="source/SoundManager.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="7" />
+			<Collapse line="27" />
+			<Collapse line="68" />
+			<Collapse line="84" />
+			<Collapse line="90" />
+			<Collapse line="96" />
+			<Collapse line="112" />
+			<Collapse line="142" />
+			<Collapse line="149" />
+			<Collapse line="164" />
+			<Collapse line="170" />
+			<Collapse line="198" />
+			<Collapse line="201" />
+			<Collapse line="225" />
+			<Collapse line="233" />
 		</Folding>
 	</File>
 	<File name="source/Menu.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -177,5 +335,5 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<EditorTabsLayout layout="02bebd505df50a950011f49500000002=*0;Front Warrior:source/ObjectManager.cpp,1;Front Warrior:source/Main.cpp,2;Front Warrior:include/CompileConfig.h,3;Front Warrior:source/SoundManager.cpp,4;Front Warrior:include/GameClasses.h,5;Front Warrior:include/ShaderManager.h,6;Front Warrior:source/ShaderManager.cpp,7;Front Warrior:source/Renderer.cpp,8;Front Warrior:source/Physics.cpp,9;Front Warrior:include/Renderer.h,10;Front Warrior:source/Network.cpp,11;Front Warrior:source/newton/World.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=340;besth=296;minw=340;minh=296;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=02bebd505df50a950011f49500000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
+	<EditorTabsLayout layout="0387a0c05df50d660011d78b00000002=*0;Front Warrior:source/ObjectManager.cpp,1;Front Warrior:source/Main.cpp,2;Front Warrior:include/CompileConfig.h,3;Front Warrior:source/SoundManager.cpp,4;Front Warrior:include/GameClasses.h,5;Front Warrior:include/ShaderManager.h,6;Front Warrior:source/ShaderManager.cpp,7;Front Warrior:source/Renderer.cpp,8;Front Warrior:source/Physics.cpp,9;Front Warrior:include/Renderer.h,10;Front Warrior:source/Network.cpp,11;Front Warrior:source/newton/World.cpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=813;besth=348;minw=813;minh=348;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=0387a0c05df50d660011d78b00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=202|" />
 </CodeBlocks_layout_file>
