@@ -126,7 +126,7 @@
 					<Add library="GLU" />
 					<Add directory="/home/Dev/libs/Media/cAudio/cAudio2.0.0-Source/bin/gcc" />
 					<Add directory="libs/irrlicht-1.7.1/lib/Linux" />
-					<Add directory="libs/newtonSDK/sdk" />
+					<Add directory="libs/newton-dynamics-2.32/coreLibrary_200/projets/linux64" />
 				</Linker>
 			</Target>
 			<Target title="Linux irrlicht -184">
