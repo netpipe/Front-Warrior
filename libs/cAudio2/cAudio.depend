@@ -840,3 +840,171 @@
 	"../Headers/cWavDecoder.h"
 	<string.h>
 
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Source/cAudioCapture.cpp
+	"../Headers/cAudioCapture.h"
+	"../Headers/cUtils.h"
+	"../Headers/cThread.h"
+	"../include/cAudioSleep.h"
+	"../Headers/cLogger.h"
+	"../Headers/cPluginManager.h"
+	<string.h>
+	<set>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cAudioCapture.h
+	"../include/IAudioCapture.h"
+	<vector>
+	<AL/al.h>
+	<AL/alc.h>
+	"../Headers/cMutex.h"
+	<string>
+	<list>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IAudioCapture.h
+	"EAudioFormats.h"
+	"cAudioDefines.h"
+	"ICaptureEventHandler.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/EAudioFormats.h
+
+1266726972 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/cAudioDefines.h
+	"cAudioPlatform.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/cAudioPlatform.h
+
+1266546306 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/ICaptureEventHandler.h
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cMutex.h
+	"../include/cAudioDefines.h"
+	<windows.h>
+	<pthread.h>
+
+1266638252 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cUtils.h
+	"../include/cAudioPlatform.h"
+	<string>
+	<vector>
+	<windows.h>
+	<direct.h>
+	<io.h>
+	<dirent.h>
+	<stdio.h>
+	<cstring>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cThread.h
+	"../include/cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/cAudioSleep.h
+	"cAudioDefines.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cLogger.h
+	<map>
+	<string>
+	<stdarg.h>
+	"../include/ILogger.h"
+	"../Headers/cMutex.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/ILogger.h
+	"ILogReceiver.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/ILogReceiver.h
+
+1266642122 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cPluginManager.h
+	<string>
+	<map>
+	<vector>
+	"../include/IPluginManager.h"
+	"../include/IAudioPlugin.h"
+	"../Headers/cMutex.h"
+	<windows.h>
+	"macUtils.h"
+	<dlfcn.h>
+	<dlfcn.h>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IPluginManager.h
+	"IAudioPlugin.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IAudioPlugin.h
+	"IRefCounted.h"
+	"IAudioManager.h"
+	"IAudioCapture.h"
+	"ILogger.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IRefCounted.h
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IAudioManager.h
+	"IListener.h"
+	"cAudioDefines.h"
+	"EAudioFormats.h"
+	"IAudioEffects.h"
+	"IDataSourceFactory.h"
+	"IManagerEventHandler.h"
+	<string>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IListener.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/cVector3.h
+	<math.h>
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IAudioEffects.h
+	"IEffect.h"
+	"IFilter.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IEffect.h
+	"IRefCounted.h"
+	"IFilter.h"
+	"IEffectParameters.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IFilter.h
+	"IRefCounted.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IEffectParameters.h
+	"cVector3.h"
+	"cAudioDefines.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IDataSourceFactory.h
+	"IDataSource.h"
+
+1266546304 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IDataSource.h
+	"IRefCounted.h"
+
+1266546306 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/include/IManagerEventHandler.h
+
+1266546330 source:/run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Source/cAudioEffects.cpp
+	"../Headers/cAudioEffects.h"
+	"../Headers/cFilter.h"
+	"../Headers/cEffect.h"
+	"../Headers/cUtils.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cAudioEffects.h
+	"../include/IAudioEffects.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<map>
+
+1266944960 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cEFXFunctions.h
+	"../include/cAudioDefines.h"
+	<AL/al.h>
+	<AL/alc.h>
+	<AL/efx.h>
+	<AL/efx-creative.h>
+	"../Headers/cMutex.h"
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cFilter.h
+	"../include/IFilter.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
+1266546332 /run/media/netpipe/df7f53ef-2a98-4562-a498-7da578dab660/games/Luna/IrrlichtDemos-git/Games/Front-Warrior/libs/cAudio2/Headers/cEffect.h
+	"../include/IEffect.h"
+	"../Headers/cMutex.h"
+	"../Headers/cEFXFunctions.h"
+	<AL/al.h>
+	<AL/alc.h>
+
